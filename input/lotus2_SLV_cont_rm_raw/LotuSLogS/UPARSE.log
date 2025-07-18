@@ -1,0 +1,7 @@
+usearch v11.0.667_i86linux32, 4.0Gb RAM (74.0Gb total), 40 cores
+/usr/bin/usearch -cluster_otus lotus2_SLV_cont_rm_raw/tmpFiles//derep.fas -otus lotus2_SLV_cont_rm_raw/tmpFiles//tmp_otu.fa -minsize 1 -log lotus2_SLV_cont_rm_raw/LotuSLogS//UPARSE.log -uparseout lotus2_SLV_cont_rm_raw/tmpFiles//finalOTU.uc 
+Started Mon May  8 20:21:43 2023
+
+Finished Mon May  8 20:21:44 2023
+Elapsed time 00:01
+Max memory 48Mb

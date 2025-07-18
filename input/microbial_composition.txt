@@ -1,0 +1,10 @@
+Listeria monocytogenes	4.2
+Pseudomonas aeruginosa	10.1
+Bacillus subtilis	10.4
+Escherichia coli	18.4
+Salmonella enterica	9.9
+Lactobacillus fermentum	15.5
+Enterococcus faecalis	14.1
+Staphylococcus aureus	17.4
+Saccharomyces cerevisiae	0
+Cryptococcus neoformans	0

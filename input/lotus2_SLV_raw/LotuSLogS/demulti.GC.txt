@@ -1,0 +1,6 @@
+Subset		Occurence		Avg.Quality
+	A	T	G	C	A	T	G	C
+R1 pre-filter	0	0	0	0	-nan	-nan	-nan	-nan
+R2 pre-filter	0	0	0	0	-nan	-nan	-nan	-nan
+R1 filtered	0	0	0	0	-nan	-nan	-nan	-nan
+R2 filtered	0	0	0	0	-nan	-nan	-nan	-nan

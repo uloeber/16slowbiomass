@@ -1,0 +1,10 @@
+LotuS 2.16: Hildebrand F, Tadeo RY, Voigt AY, Bork P, Raes J. 2014. LotuS: an efficient and user-friendly OTU processing pipeline. Microbiome 2: 30.
+SILVA 16S/18S database - Yilmaz P, Parfrey LW, Yarza P, Gerken J, Pruesse E, Quast C, Schweer T, Peplies J, Ludwig W, Glockner FO (2014) The SILVA and "All-species Living Tree Project (LTP)" taxonomic frameworks. Nucleic Acid Res. 42:D643-D648 
+VSEARCH v2.15.0 (chimera de novo / ref; OTU alignments): Rognes T, Flouri T, Nichols B, Quince C, Mahé F. 2016. VSEARCH: A versatile open source tool for metagenomics. PeerJ 2016:1–22.
+Poisson binomial model based read filtering: Fernando Puente-Sánchez, Jacobo Aguirre, Víctor Parro (2015).A novel conceptual approach to read-filtering in high-throughput amplicon sequencing studies. Nucleic Acids Res.(2015).
+UPARSE v11.0 OTU clustering - Edgar RC. 2013. UPARSE: highly accurate OTU sequences from microbial amplicon reads. Nat Methods.
+Offtarget removal (against phiX): Bedarf, J.R., Beraza, N., (2021). Much ado about nothing? Off-target amplification can lead to false-positive bacterial brain microbiome detection in healthy and Parkinson's disease individuals. Microbiome 9, 75.
+minimap2 v2.17 used in offtarget aligments: Li H. 2018. Minimap2: pairwise alignment for nucleotide sequences. Bioinformatics 34:3094–3100.
+VSEARCH v2.15.0 taxonomic database search: Rognes T, Flouri T, Nichols B, Quince C, Mahé F. (2016) VSEARCH: a versatile open source tool for metagenomics. PeerJ 4:e2584. doi: 10.7717/peerj.2584
+======== Phylogenetic tree building ========
+Katoh K, Misawa K, Kuma K, Miyata T. MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform. Nucleic Acids Res. 2002;30(14):3059-3066. doi:10.1093/nar/gkf436Nguyen, L.-T., Schmidt, H. A., von Haeseler, A. & Minh, B. Q. IQ-TREE: A Fast and Effective Stochastic Algorithm for Estimating Maximum-Likelihood Phylogenies. Mol. Biol. Evol. 32, 268–274 (2015).

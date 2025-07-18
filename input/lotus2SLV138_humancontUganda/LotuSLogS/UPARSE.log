@@ -1,0 +1,7 @@
+usearch v11.0.667_i86linux32, 4.0Gb RAM (74.0Gb total), 40 cores
+/fast/AG_Forslund/bin/VMbin/lotus2/bin/usearch -cluster_otus lotus2SLV138_humancontUganda/tmpFiles//derep.fas -otus lotus2SLV138_humancontUganda/tmpFiles//tmp_otu.fa -minsize 1 -log lotus2SLV138_humancontUganda/LotuSLogS//UPARSE.log -uparseout lotus2SLV138_humancontUganda/tmpFiles//finalOTU.uc 
+Started Thu Feb 24 17:49:46 2022
+
+Finished Thu Feb 24 17:49:49 2022
+Elapsed time 00:03
+Max memory 51Mb

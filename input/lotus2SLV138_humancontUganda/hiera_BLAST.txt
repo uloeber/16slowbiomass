@@ -1,0 +1,53 @@
+OTU	Domain	Phylum	Class	Order	Family	Genus	Species
+OTU49	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU52	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	Gymnosporangium ellisii
+OTU55	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	Gymnosporangium ellisii
+OTU57	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	?
+OTU59	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU83	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	Gymnosporangium ellisii
+OTU85	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	Gymnosporangium ellisii
+OTU86	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	?
+OTU90	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	?
+OTU94	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU132	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	Gymnosporangium ellisii
+OTU164	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	Gymnosporangium ellisii
+OTU217	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	Gymnosporangium ellisii
+OTU232	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	Gymnosporangium ellisii
+OTU243	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU247		?	?	?	?	?	?
+OTU250	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU251	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	Gymnosporangium ellisii
+OTU260	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	Gymnosporangium ellisii
+OTU264	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU266	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	Gymnosporangium ellisii
+OTU290	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU317	Eukaryota	Basidiomycota	Pucciniomycetes	?	?	?	?
+OTU334	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU340	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU364	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU367	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	Gymnosporangium ellisii
+OTU380	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU420	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	?	?	?
+OTU424	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU430	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	Gymnosporangium ellisii
+OTU437	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU476	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	Gymnosporangium ellisii
+OTU480	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	?	?
+OTU527	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	?	?
+OTU628	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU632	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU653	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU689	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU693	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU709	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU714	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU715	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU720	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU741	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU750	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU795	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU796	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU809	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	Gymnosporangium ellisii
+OTU811	Eukaryota	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Gymnosporangium	Gymnosporangium ellisii
+OTU812	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus
+OTU817	Eukaryota	Basidiomycota	?	?	?	?	?

@@ -1,0 +1,35 @@
+OTU	Domain	Phylum	Class	Order	Family	Genus	Species
+OTU1	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	?
+OTU2	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	?
+OTU3	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Escherichia-Shigella	Escherichia coli
+OTU4	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Escherichia-Shigella	Escherichia coli
+OTU5	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Salmonella	Salmonella enterica
+OTU6	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Salmonella	Salmonella enterica
+OTU7	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Lactobacillus fermentum
+OTU8	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Lactobacillus fermentum
+OTU9	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	Pseudomonas aeruginosa
+OTU10	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus faecalis
+OTU11	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus faecalis
+OTU12	Bacteria	Firmicutes	Bacilli	Lactobacillales	Listeriaceae	Listeria	Listeria monocytogenes
+OTU13	Bacteria	Firmicutes	Bacilli	Lactobacillales	Listeriaceae	Listeria	Listeria monocytogenes
+OTU14	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	Pseudomonas aeruginosa
+OTU15	Bacteria	Firmicutes	Bacilli	Staphylococcales	Staphylococcaceae	?	?
+OTU16	Bacteria	Firmicutes	Bacilli	Staphylococcales	Staphylococcaceae	Staphylococcus	Staphylococcus aureus
+OTU17	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	?
+OTU18	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	?
+OTU19	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Vibrionaceae	Vibrio	?
+OTU20	Bacteria	Actinobacteriota	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Cutibacterium	Cutibacterium acnes
+OTU21	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Vibrionaceae	Vibrio	Vibrio metschnikovii
+OTU22	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Vibrionaceae	Vibrio	Vibrio cholerae
+OTU23	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Vibrionaceae	Vibrio	Vibrio cholerae
+OTU24	Bacteria	Actinobacteriota	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Cutibacterium	?
+OTU25	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Aeromonadaceae	Aeromonas	?
+OTU26	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Plesiomonas	Plesiomonas shigelloides
+OTU27	Bacteria	Firmicutes	Bacilli	Lactobacillales	Vagococcaceae	Vagococcus	Vagococcus salmoninarum
+OTU28	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Plesiomonas	Plesiomonas shigelloides
+OTU29	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Cetobacterium	Cetobacterium somerae
+OTU30	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Cetobacterium	?
+OTU31	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Aeromonadaceae	Aeromonas	?
+OTU32	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Vibrionaceae	Vibrio	?
+OTU33	Bacteria	Firmicutes	Bacilli	?	?	?	?
+OTU34	Bacteria	Firmicutes	Bacilli	Paenibacillales	Paenibacillaceae	?	?

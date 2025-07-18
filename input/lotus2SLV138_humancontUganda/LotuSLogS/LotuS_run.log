@@ -1,0 +1,113 @@
+No sdm Option specified, using standard miSeq sdm options (/fast/AG_Forslund/bin/VMbin/lotus2/configs/sdm_miSeq.txt)RefDB SLV requested. Setting similarity based search to default Blast option to search SLV.
+Using Silva SSU ref seq database.
+--------------------------------------------------------------------------------
+ 00:00:02 LotuS 2.16
+          COMMAND
+          perl /fast/AG_Forslund/bin/VMbin/lotus2/lotus2 -i ./ -m
+          human_cont_uganda.map -refDB SLV -o lotus2SLV138_humancontUganda
+--------------------------------------------------------------------------------
+WARNING:: No forward PCR primer for amplicon found in mapping file (column header "ForwardPrimer". This might invalidate chimera checks).
+--------------------------------------------------------------------------------
+ 00:00:12 Reading mapping file
+          Sequence files are indicated in mapping file.
+          Switching to paired end read mode
+--------------------------------------------------------------------------------
+de novo sequence clustering with UPARSE into OTU's
+------------ I/O configuration --------------
+Input       ./
+Output      lotus2SLV138_humancontUganda
+TempDir     lotus2SLV138_humancontUganda/tmpFiles/
+SDM options /fast/AG_Forslund/bin/VMbin/lotus2/configs/sdm_miSeq.txt
+------------ Configuration LotuS --------------
+Sequencing platform=miseq
+AmpliconType=SSU
+OTU id=0.97
+min unique read abundance=8:1,4:2,3:3
+UCHIME_REFDB, ABSKEW=/fast/AG_Forslund/bin/VMbin/lotus2//DB//rdp_gold.fa, 2
+OTU, Chimera prefix=OTU, CHIMERA_
+Similarity search with VSEARCH
+ReferenceDatabase=SILVA
+RefDB location=/fast/AG_Forslund/bin/VMbin/lotus2//DB//SLV_138.1_SSU.fasta
+TaxonomicGroup=bacteria
+keeping taxonomic unclassified OTU's in matrix
+--------------------------------------------
+--------------------------------------------------------------------------------
+ 00:00:12 Demultiplexing, filtering, dereplicating input files, this
+          might take some time..
+          check progress at lotus2SLV138_humancontUganda/LotuSLogS/LotuS_progout.log
+ 00:00:58 Finished primary read processing with sdm:
+          Reads processed: 135,927; 135,927 (pair 1;pair 2)
+          Accepted (High qual): 119,410; 110,676 (2,449; 11,510 end-trimmed)
+          Rejected: 16,517; 25,251
+          Dereplication: 4,156 unique sequences (avg size 18; 73,216 counts)
+          44,629/48,785 not passing derep conditions (49,233 counts;
+          8:1,4:2,3:3)
+          For an extensive report see lotus2SLV138_humancontUganda/LotuSLogS//demulti.log
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ 00:00:58 UPARSE OTU clustering
+          Cluster at 97
+ 00:01:02 Finished
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ 00:01:02 Starting backmapping of 
+            - low-abundant dereplicated Reads
+          to OTU's using minimap2
+--------------------------------------------------------------------------------
+ 00:01:05 Extending and merging pairs of OTU Seeds
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ 00:01:07 Found 824 fasta seed sequences based on seed extension and
+          read merging
+--------------------------------------------------------------------------------
+No ref based chimera detection
+--------------------------------------------------------------------------------
+ 00:01:07 Found 0 OTU's using minimap2 (phiX.0: /fast/AG_Forslund/bin/VMbin/lotus2//DB//phiX.fasta)
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ 00:01:07 Postfilter:
+          Extended logs active, contaminant and chimeric matrix will be created.
+          After filtering 824 OTU's (108144 reads) remaining in matrix.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ 00:01:07 Assigning taxonomy against /fast/AG_Forslund/bin/VMbin/lotus2//DB//SLV_138.1_SSU.fasta
+          using VSEARCH
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ 00:02:42 Calculating Taxonomic Abundance Tables from SILVA assignments
+--------------------------------------------------------------------------------
+
+Calculating higher abundance levels
+Adding 772 unclassified OTU's to output matrices
+Total reads in matrix: 108144
+TaxLvl	%Assigned_Reads	%Assigned_OTUs
+Phylum	3	66
+Class	3	50
+Order	3	40
+Family	3	33
+Genus	3	28
+Species	2	25
+
+--------------------------------------------------------------------------------
+ 00:02:44 Building tree (fasttree) and aligning (mafft) OTUs
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ 00:04:55 LotuS2 finished. Output in:
+          lotus2SLV138_humancontUganda
+                    Next steps:          
+          - Phyloseq: load lotus2SLV138_humancontUganda/phyloseq.Rdata
+          directly with the phyloseq package in R
+          - Phylogeny: OTU phylogentic tree available in lotus2SLV138_humancontUganda/OTUphylo.nwk
+          - .biom: lotus2SLV138_humancontUganda/OTU.biom contains
+          biom formatted output
+          - Alpha diveristy/rarefaction curves: rtk (available as
+          R package or in bin/rtk)
+          - LotuSLogS/ contains run statistics (useful for describing
+          data/amount of reads/quality and citations to programs used
+          - Tutorial: Visit http://lotus2.earlham.ac.uk for a numerical
+          ecology tutorial
+--------------------------------------------------------------------------------
+
+The following WARNINGS occured:
+WARNING:: No forward PCR primer for amplicon found in mapping file (column header "ForwardPrimer". This might invalidate chimera checks).
+

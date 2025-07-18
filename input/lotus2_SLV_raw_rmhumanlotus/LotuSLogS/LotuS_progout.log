@@ -1,0 +1,306 @@
+
+This is sdm (simple demultiplexer) 2.08 beta.
+
+Checking for switched pairs.
+Run with 1 cores.At 341F-785R-P01-A01-1_R1.fastq.gz: 64.1952% of 74437 reads accepted (99.8952% end-trimmed)
+Pair 2: 75.7271% of 74437 reads accepted (84.4177% end - trimmed)
+At 341F-785R-P01-A02-11_R1.fastq.gz: 62.4852% of 89578 reads accepted (99.7801% end-trimmed)
+Pair 2: 74.4937% of 89578 reads accepted (83.5395% end - trimmed)
+At 341F-785R-P01-A03-24_R1.fastq.gz: 67.9726% of 52964 reads accepted (99.8829% end-trimmed)
+Pair 2: 78.6383% of 52964 reads accepted (86.6551% end - trimmed)
+At 341F-785R-P01-A04-42_R1.fastq.gz: 62.888% of 30796 reads accepted (99.8928% end-trimmed)
+Pair 2: 76.393% of 30796 reads accepted (84.7545% end - trimmed)
+At 341F-785R-P01-A05-55_R1.fastq.gz: 61.3779% of 57928 reads accepted (99.767% end-trimmed)
+Pair 2: 76.5795% of 57928 reads accepted (85.009% end - trimmed)
+At 341F-785R-P01-A06-73_R1.fastq.gz: 68.3391% of 65671 reads accepted (99.866% end-trimmed)
+Pair 2: 80.4982% of 65671 reads accepted (87.5577% end - trimmed)
+At 341F-785R-P01-B01-2_R1.fastq.gz: 68.1332% of 79735 reads accepted (99.9185% end-trimmed)
+Pair 2: 78.3357% of 79735 reads accepted (86.1541% end - trimmed)
+At 341F-785R-P01-B02-12_R1.fastq.gz: 68.513% of 57773 reads accepted (99.9411% end-trimmed)
+Pair 2: 78.5419% of 57773 reads accepted (86.7914% end - trimmed)
+At 341F-785R-P01-B03-25_R1.fastq.gz: 66.7073% of 10654 reads accepted (99.9625% end-trimmed)
+Pair 2: 79.3223% of 10654 reads accepted (87.0753% end - trimmed)
+At 341F-785R-P01-B04-43_R1.fastq.gz: 62.2208% of 28161 reads accepted (99.897% end-trimmed)
+Pair 2: 76.819% of 28161 reads accepted (85.6823% end - trimmed)
+At 341F-785R-P01-B05-61_R1.fastq.gz: 68.0097% of 55373 reads accepted (99.8916% end-trimmed)
+Pair 2: 80.1582% of 55373 reads accepted (87.7702% end - trimmed)
+At 341F-785R-P01-B06-74_R1.fastq.gz: 63.0772% of 89446 reads accepted (99.877% end-trimmed)
+Pair 2: 76.1789% of 89446 reads accepted (84.6768% end - trimmed)
+At 341F-785R-P01-C01-3_R1.fastq.gz: 69.2637% of 69052 reads accepted (99.9174% end-trimmed)
+Pair 2: 79.3185% of 69052 reads accepted (86.9055% end - trimmed)
+At 341F-785R-P01-C02-13_R1.fastq.gz: 68.0961% of 52586 reads accepted (99.8935% end-trimmed)
+Pair 2: 78.9412% of 52586 reads accepted (86.7664% end - trimmed)
+At 341F-785R-P01-C03-31_R1.fastq.gz: 69.7147% of 29549 reads accepted (99.956% end-trimmed)
+Pair 2: 81.2989% of 29549 reads accepted (88.4125% end - trimmed)
+At 341F-785R-P01-C04-44_R1.fastq.gz: 61.9829% of 36018 reads accepted (99.8612% end-trimmed)
+Pair 2: 75.6011% of 36018 reads accepted (84.4633% end - trimmed)
+At 341F-785R-P01-C05-62_R1.fastq.gz: 68.2015% of 47650 reads accepted (99.893% end-trimmed)
+Pair 2: 80.3631% of 47650 reads accepted (87.8132% end - trimmed)
+At 341F-785R-P01-C06-75_R1.fastq.gz: 63.4973% of 72422 reads accepted (99.8951% end-trimmed)
+Pair 2: 76.6176% of 72422 reads accepted (84.9479% end - trimmed)
+At 341F-785R-P01-D01-4_R1.fastq.gz: 66.6236% of 35588 reads accepted (99.8988% end-trimmed)
+Pair 2: 77.6975% of 35588 reads accepted (85.5063% end - trimmed)
+At 341F-785R-P01-D02-14_R1.fastq.gz: 68.8304% of 39330 reads accepted (99.9415% end-trimmed)
+Pair 2: 78.5482% of 39330 reads accepted (86.2649% end - trimmed)
+At 341F-785R-P01-D03-32_R1.fastq.gz: 70.628% of 47358 reads accepted (99.924% end-trimmed)
+Pair 2: 79.902% of 47358 reads accepted (86.8512% end - trimmed)
+At 341F-785R-P01-D04-45_R1.fastq.gz: 65.8454% of 25692 reads accepted (99.7704% end-trimmed)
+Pair 2: 77.3704% of 25692 reads accepted (85.3807% end - trimmed)
+At 341F-785R-P01-D05-63_R1.fastq.gz: 68.6221% of 38900 reads accepted (99.9152% end-trimmed)
+Pair 2: 79.7969% of 38900 reads accepted (87.2288% end - trimmed)
+At 341F-785R-P01-D06-81_R1.fastq.gz: 26.8792% of 9725 reads accepted (99.5373% end-trimmed)
+Pair 2: 58.1183% of 9725 reads accepted (72.7506% end - trimmed)
+At 341F-785R-P01-E01-5_R1.fastq.gz: 63.7206% of 50643 reads accepted (99.9487% end-trimmed)
+Pair 2: 76.6187% of 50643 reads accepted (84.914% end - trimmed)
+At 341F-785R-P01-E02-15_R1.fastq.gz: 64.2465% of 80160 reads accepted (99.8615% end-trimmed)
+Pair 2: 75.1198% of 80160 reads accepted (83.8473% end - trimmed)
+At 341F-785R-P01-E03-33_R1.fastq.gz: 64.8687% of 48185 reads accepted (99.9357% end-trimmed)
+Pair 2: 75.8576% of 48185 reads accepted (84.4952% end - trimmed)
+At 341F-785R-P01-E04-51_R1.fastq.gz: 64.1069% of 59276 reads accepted (99.914% end-trimmed)
+Pair 2: 78.2813% of 59276 reads accepted (86.2187% end - trimmed)
+At 341F-785R-P01-E05-64_R1.fastq.gz: 63.1357% of 77476 reads accepted (99.8825% end-trimmed)
+Pair 2: 76.9955% of 77476 reads accepted (85.4587% end - trimmed)
+At 341F-785R-P01-E06-82_R1.fastq.gz: 57.4324% of 444 reads accepted (99.7748% end-trimmed)
+Pair 2: 67.1171% of 444 reads accepted (78.8288% end - trimmed)
+At 341F-785R-P01-F01-6_R1.fastq.gz: 68.4% of 17288 reads accepted (99.9479% end-trimmed)
+Pair 2: 78.864% of 17288 reads accepted (87.0315% end - trimmed)
+At 341F-785R-P01-F02-21_R1.fastq.gz: 68.2947% of 54054 reads accepted (99.9315% end-trimmed)
+Pair 2: 78.046% of 54054 reads accepted (86.0454% end - trimmed)
+At 341F-785R-P01-F03-34_R1.fastq.gz: 67.5285% of 45486 reads accepted (99.9296% end-trimmed)
+Pair 2: 79.3541% of 45486 reads accepted (87.1609% end - trimmed)
+At 341F-785R-P01-F04-52_R1.fastq.gz: 67.5368% of 15744 reads accepted (99.8793% end-trimmed)
+Pair 2: 80.4243% of 15744 reads accepted (88.1288% end - trimmed)
+At 341F-785R-P01-F05-65_R1.fastq.gz: 67.3428% of 37814 reads accepted (99.9207% end-trimmed)
+Pair 2: 79.423% of 37814 reads accepted (87.2428% end - trimmed)
+At 341F-785R-P01-G01-7_R1.fastq.gz: 67.7851% of 71203 reads accepted (99.8905% end-trimmed)
+Pair 2: 78.4841% of 71203 reads accepted (86.4472% end - trimmed)
+At 341F-785R-P01-G02-22_R1.fastq.gz: 69.5682% of 91240 reads accepted (99.8827% end-trimmed)
+Pair 2: 80.0592% of 91240 reads accepted (87.5658% end - trimmed)
+At 341F-785R-P01-G03-35_R1.fastq.gz: 69.2905% of 31570 reads accepted (99.9398% end-trimmed)
+Pair 2: 79.3411% of 31570 reads accepted (86.9971% end - trimmed)
+At 341F-785R-P01-G04-53_R1.fastq.gz: 67.0827% of 48388 reads accepted (99.8553% end-trimmed)
+Pair 2: 79.3916% of 48388 reads accepted (87.191% end - trimmed)
+At 341F-785R-P01-G05-71_R1.fastq.gz: 69.1402% of 108899 reads accepted (99.8577% end-trimmed)
+Pair 2: 81.1559% of 108899 reads accepted (88.2974% end - trimmed)
+At 341F-785R-P01-H01-8_R1.fastq.gz: 68.965% of 78856 reads accepted (99.9429% end-trimmed)
+Pair 2: 79.001% of 78856 reads accepted (86.3346% end - trimmed)
+At 341F-785R-P01-H02-23_R1.fastq.gz: 68.0389% of 86258 reads accepted (99.9165% end-trimmed)
+Pair 2: 78.4321% of 86258 reads accepted (86.0882% end - trimmed)
+At 341F-785R-P01-H03-41_R1.fastq.gz: 65.2646% of 21920 reads accepted (99.9635% end-trimmed)
+Pair 2: 77.5593% of 21920 reads accepted (85.7984% end - trimmed)
+At 341F-785R-P01-H04-54_R1.fastq.gz: 68.7675% of 50838 reads accepted (99.8898% end-trimmed)
+Pair 2: 80.1467% of 50838 reads accepted (87.2261% end - trimmed)
+At 341F-785R-P01-H05-72_R1.fastq.gz: 68.2719% of 96829 reads accepted (99.874% end-trimmed)
+Pair 2: 79.9874% of 96829 reads accepted (87.1474% end - trimmed)
+Evaluating and writing dereplicated reads..
+
+Dereplication: 38,093 unique sequences (avg size 53; 2,016,958 counts)
+109,680/147,773 not passing derep conditions (127,501 counts; 8:1,4:2,3:3)
+
+Unequal counts in 44 cases. 
+sdm 2.08 beta
+Input File:  several
+Output File: lotus2_SLV_raw_rmhumanlotus/tmpFiles//demulti.1.fna
+
+Reads processed: 2,368,957; 2,368,957 (pair 1;pair 2)
+Rejected: 793,717; 516,286
+Accepted (High qual): 1,574,748; 1,852,669 (2,600; 328,186 end-trimmed)
+Accepted (Mid qual): 492;2
+Singletons among these: 0; 0
+Bad Reads recovered with dereplication: 569,275
+Min/Avg/Max stats Pair 1
+     - sequence Length : 200/200/200
+     - Quality :   34/36.5095/38
+     - Median sequence Length : 0, Quality : 0
+     - Accum. Error 0.176882
+Trimmed due to:
+  > 25 avg qual_ in 20 bp windows :         0; 0
+  > (0.95) acc. errors, trimmed seqs :     0; 0
+Rejected due to:
+  < min Sequence length (200)  :                569,327; 513,476
+       -after Quality trimming :           569,327; 513,476
+  < avg Quality (27)  :                    0; 0
+  < window (50 nt) avg. Quality (25)  :    16,187; 2
+  > max Sequence length (1000)  :               0; 0
+  > (8) homo-nt run  :                     1,249; 2,810
+  > (0) amb. Bases  :                      0; 0
+  > (2.7) binomial est. errors :           223,141; 0
+Specific sequence searches:
+  -With fwd Primer remaining (<= 0 mismatches) :           0; 0
+  -Barcode unidentified (max 0 errors) :                   0
+
+SampleID	Barcode	Instances
+341F-785R-P01-A01-1		63,852
+341F-785R-P01-A02-11		77,930
+341F-785R-P01-A03-24		47,427
+341F-785R-P01-A04-42		26,871
+341F-785R-P01-A05-55		50,781
+341F-785R-P01-A06-73		59,289
+341F-785R-P01-B01-2		72,062
+341F-785R-P01-B02-12		52,650
+341F-785R-P01-B03-25		9,669
+341F-785R-P01-B04-43		23,303
+341F-785R-P01-B05-61		50,414
+341F-785R-P01-B06-74		80,468
+341F-785R-P01-C01-3		63,182
+341F-785R-P01-C02-13		48,046
+341F-785R-P01-C03-31		27,190
+341F-785R-P01-C04-44		29,438
+341F-785R-P01-C05-62		43,597
+341F-785R-P01-C06-75		65,729
+341F-785R-P01-D01-4		31,288
+341F-785R-P01-D02-14		36,228
+341F-785R-P01-D03-32		43,805
+341F-785R-P01-D04-45		21,908
+341F-785R-P01-D05-63		35,807
+341F-785R-P01-D06-81		4,943
+341F-785R-P01-E01-5		46,197
+341F-785R-P01-E02-15		73,037
+341F-785R-P01-E03-33		44,140
+341F-785R-P01-E04-51		54,073
+341F-785R-P01-E05-64		70,639
+341F-785R-P01-E06-82		334
+341F-785R-P01-F01-6		16,072
+341F-785R-P01-F02-21		49,984
+341F-785R-P01-F03-34		41,945
+341F-785R-P01-F04-52		14,511
+341F-785R-P01-F05-65		34,770
+341F-785R-P01-G01-7		65,674
+341F-785R-P01-G02-22		84,607
+341F-785R-P01-G03-35		28,700
+341F-785R-P01-G04-53		44,149
+341F-785R-P01-G05-71		100,893
+341F-785R-P01-H01-8		73,168
+341F-785R-P01-H02-23		79,844
+341F-785R-P01-H03-41		19,001
+341F-785R-P01-H04-54		46,847
+341F-785R-P01-H05-72		89,561
+Time taken: : 1m 4s 158ms
+usearch v11.0.667_i86linux32, 4.0Gb RAM (74.0Gb total), 40 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
+
+License: ulrike.loeber@mdc-berlin.de
+
+00:00 39Mb      0.1% 0 OTUs, 0 chimeras00:01 48Mb     23.7% 79 OTUs, 125 chimeras00:02 49Mb     85.5% 246 OTUs, 462 chimeras00:02 49Mb    100.0% 280 OTUs, 535 chimeras
+[M::mm_idx_gen::0.008*1.09] collected minimizers
+[M::mm_idx_gen::0.014*1.05] sorted minimizers
+[M::main::0.014*1.05] loaded/built the index for 280 target sequence(s)
+[M::mm_mapopt_update::0.014*1.05] mid_occ = 1000
+[M::mm_idx_stat] kmer size: 21; skip: 11; is_hpc: 0; #seq: 280
+[M::mm_idx_stat::0.014*1.05] distinct minimizers: 7485 (94.80% are singletons); average occurrences: 1.086; average spacing: 6.890
+[M::worker_pipeline::0.064*1.01] mapped 492 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: /fast/AG_Forslund/bin/VMbin/lotus2//bin//minimap2-2.17_x64-linux/minimap2 -x sr --sr -u both --secondary=no -N 30 -c -t 1 -o lotus2_SLV_raw_rmhumanlotus/tmpFiles//add.paf lotus2_SLV_raw_rmhumanlotus/tmpFiles//tmp_otu.fa lotus2_SLV_raw_rmhumanlotus/tmpFiles//demulti.1.add.fna.singl
+[M::main] Real time: 0.066 sec; CPU: 0.066 sec; Peak RSS: 0.004 GB
+
+This is sdm (simple demultiplexer) 2.08 beta.
+
+You did not supply a quality file. 
+Please give the path to your quality file as command line argument:
+  -i_qual <PathToQualityFile>
+NO filtering will be done on your reads (just rewriting / log files created).
+sdm run in No Map Mode.
+sequence filename: lotus2_SLV_raw_rmhumanlotus/tmpFiles//derep.fas.rest
+quality filename: 
+ 
+
+Reading Fasta.
+success
+Run with 1 cores.sequence filename: lotus2_SLV_raw_rmhumanlotus/tmpFiles//derep.fas.rest
+quality filename: 
+ 
+
+Reading Fasta.
+success
+
+*********
+Warning:: Quality file is not present.
+Recommended to abort demultiplexing.
+*********
+
+sdm 2.08 beta
+Input File:  lotus2_SLV_raw_rmhumanlotus/tmpFiles//derep.fas.rest
+Output File: lotus2_SLV_raw_rmhumanlotus/tmpFiles//derep.fas.rest1
+No valid Filter file provided; no filtering done on files
+Time taken: : 3s 153ms
+[M::mm_idx_gen::0.008*1.07] collected minimizers
+[M::mm_idx_gen::0.014*1.04] sorted minimizers
+[M::main::0.014*1.04] loaded/built the index for 280 target sequence(s)
+[M::mm_mapopt_update::0.014*1.04] mid_occ = 1000
+[M::mm_idx_stat] kmer size: 21; skip: 11; is_hpc: 0; #seq: 280
+[M::mm_idx_stat::0.014*1.04] distinct minimizers: 7485 (94.80% are singletons); average occurrences: 1.086; average spacing: 6.890
+[M::worker_pipeline::11.030*1.00] mapped 109680 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: /fast/AG_Forslund/bin/VMbin/lotus2//bin//minimap2-2.17_x64-linux/minimap2 -x sr --sr -u both --secondary=no -N 30 -c -t 1 -o lotus2_SLV_raw_rmhumanlotus/tmpFiles//rests.paf lotus2_SLV_raw_rmhumanlotus/tmpFiles//tmp_otu.fa lotus2_SLV_raw_rmhumanlotus/tmpFiles//derep.fas.rest
+[M::main] Real time: 11.033 sec; CPU: 11.031 sec; Peak RSS: 0.116 GB
+
+This is sdm (simple demultiplexer) 2.08 beta.
+
+Checking for switched pairs.
+sdm run in No Map Mode. Using paired end sequencing files.
+Reading Fasta.
+Run with 1 cores.At lotus2_SLV_raw_rmhumanlotus/tmpFiles//derep.1.hq.fq: Associated 2020716, 2.01179e+06 counts to primary clusters
+Found 2144459 counts in derep.map, 123743 counts secondary
+Reading lotus2_SLV_raw_rmhumanlotus/tmpFiles//finalOTU.ADD.paf
+Added 477 counts from uc add file
+Reading lotus2_SLV_raw_rmhumanlotus/tmpFiles//finalOTU.REST.paf
+Added 96816 counts from uc add file
+Found 280 seeds of 280 OTU's in 145509 mappings.
+Stats of Seed sequences (0th/10th/50th/90th/100th) percentile:
+
+     - Sequence Length :   200/200/411/493/578
+     - Quality :      30/30/37.9634/38.7297/40
+     - Accum. Error : 0.0289/0.0617539/0.154389/0.662867/7.47748
+     - Sim2Consensus: 0/0/0/100/100
+Writing OTU matrix to lotus2_SLV_raw_rmhumanlotus/OTU.txt
+Recruited 2125480 reads in OTU matrix
+Done
+Time taken: : 2s 314ms
+[M::mm_idx_gen::0.004*1.22] collected minimizers
+[M::mm_idx_gen::0.005*1.18] sorted minimizers
+[M::main::0.005*1.18] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.005*1.18] mid_occ = 1000
+[M::mm_idx_stat] kmer size: 21; skip: 11; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.005*1.17] distinct minimizers: 900 (100.00% are singletons); average occurrences: 1.000; average spacing: 5.984
+[M::worker_pipeline::0.014*1.05] mapped 309 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: /fast/AG_Forslund/bin/VMbin/lotus2//bin//minimap2-2.17_x64-linux/minimap2 -x sr --sr -u both --secondary=no -N 30 -c -t 1 -o lotus2_SLV_raw_rmhumanlotus/tmpFiles//otu_seeds.fna.phiX.0.cont_hit.paf /fast/AG_Forslund/bin/VMbin/lotus2//DB//phiX.fasta lotus2_SLV_raw_rmhumanlotus/tmpFiles//otu_seeds.fna
+[M::main] Real time: 0.015 sec; CPU: 0.016 sec; Peak RSS: 0.002 GB
+[M::mm_idx_gen::109.030*0.88] collected minimizers
+[M::mm_idx_gen::142.049*0.91] sorted minimizers
+[M::main::142.049*0.91] loaded/built the index for 705 target sequence(s)
+[M::mm_mapopt_update::142.049*0.91] mid_occ = 1000
+[M::mm_idx_stat] kmer size: 21; skip: 11; is_hpc: 0; #seq: 705
+[M::mm_idx_stat::144.965*0.91] distinct minimizers: 379180827 (91.91% are singletons); average occurrences: 1.364; average spacing: 6.376
+[M::worker_pipeline::145.013*0.91] mapped 309 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: /fast/AG_Forslund/bin/VMbin/lotus2//bin//minimap2-2.17_x64-linux/minimap2 -x sr --sr -u both --secondary=no -N 30 -c -t 1 -o lotus2_SLV_raw_rmhumanlotus/tmpFiles//otu_seeds.fna.offTarget.0.cont_hit.paf /fast/AG_Forslund/shared/references/HG38.p14_progenomes3masked.fa lotus2_SLV_raw_rmhumanlotus/tmpFiles//otu_seeds.fna
+[M::main] Real time: 146.094 sec; CPU: 133.130 sec; Peak RSS: 13.848 GB
+LAMBDA - the Local Aligner for Massive Biological DatA
+======================================================
+Version 0.9.1
+
+Loading Subj Sequences... done.
+Loading Subj Ids... done.
+Loading Database Index... done.
+Loading Database Masking file... done.
+Loading Query Sequences and Ids... generating reverse complements... done.
+Searching and extending hits on-line...progress:
+0%  10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+|....:....:....:....:....:....:....:....:....:....|
+Number of valid hits:                           6800
+Number of Queries with at least one valid hit:    34
+Least common ancestor (LCA) assignments ver 0.24
+Loading tax DB../fast/AG_Forslund/bin/VMbin/lotus2//DB//SLV_138.1_SSU.tax
+52026 of 510508 are duplicate entries
+TaxDB /fast/AG_Forslund/bin/VMbin/lotus2//DB//SLV_138.1_SSU.tax contained 458482 entries, depth distribution is:
+0:0 1:50 2:3250 3:7541 4:25185 5:50914 6:136341 7:235201 
+Done Blast File reading
+Wrote 34/34 LCA tax assignments
+LCA finished. Time taken: 1.59s
+
+Creating Phyloseq object ...
+Read 3 items
+WARNING: Phyloseq doesn't recognize sample names starting with a number. Some of the sample names start with a number.."S_" is added into beginning of these sample names.
+Phyloseq object is created: phyloseq.Rdata

@@ -1,0 +1,231 @@
+sdm 1.94 beta
+Input File:  several
+Output File: lotus2SLV138_humancontUganda/tmpFiles//demulti.1.fna
+
+Reads not High qual_: 0
+Rejected:0
+Accepted (High qual): 0 (0 end-trimmed)
+Accepted (Mid qual): 0
+Singletons among these: 0; 0
+Bad Reads recovered with dereplication: 0
+Min/Avg/Max stats Pair 1
+     - sequence Length : 0/0/0
+     - Quality :   0/0/0
+     - Median sequence Length : 0, Quality : 0
+     - Accum. Error -nan
+Trimmed due to:
+  > 25 avg qual_ in 20 bp windows :          0
+  > (-1) acc. errors, trimmed seqs :       0
+Rejected due to:
+  < min Sequence length (170)  :                0
+  < avg Quality (20)  :                    0
+  < window (50 nt) avg. Quality (25)  :    0
+  > max Sequence length (1000)  :               0
+  > (8) homo-nt run  :                     0
+  > (1) amb. Bases  :                      0
+  > (2.5) binomial est. errors :           0
+Specific sequence searches:
+  -With fwd Primer remaining (<= 0 mismatches) :           0
+  -Barcode unidentified (max 0 errors) :                   0
+
+SampleID	Barcode	Instances
+SMPL1		0
+SMPL101		0
+SMPL103		0
+SMPL105		0
+SMPL107		0
+SMPL109		0
+SMPL11		0
+SMPL111		0
+SMPL113		0
+SMPL115		0
+SMPL117		0
+SMPL119		0
+SMPL121		0
+SMPL123		0
+SMPL125		0
+SMPL127		0
+SMPL129		0
+SMPL13		0
+SMPL131		0
+SMPL133		0
+SMPL135		0
+SMPL137		0
+SMPL139		0
+SMPL141		0
+SMPL143		0
+SMPL145		0
+SMPL147		0
+SMPL149		0
+SMPL15		0
+SMPL151		0
+SMPL153		0
+SMPL155		0
+SMPL157		0
+SMPL159		0
+SMPL161		0
+SMPL163		0
+SMPL165		0
+SMPL167		0
+SMPL169		0
+SMPL17		0
+SMPL171		0
+SMPL173		0
+SMPL175		0
+SMPL177		0
+SMPL179		0
+SMPL181		0
+SMPL183		0
+SMPL185		0
+SMPL187		0
+SMPL189		0
+SMPL19		0
+SMPL191		0
+SMPL193		0
+SMPL195		0
+SMPL197		0
+SMPL199		0
+SMPL201		0
+SMPL203		0
+SMPL205		0
+SMPL207		0
+SMPL209		0
+SMPL21		0
+SMPL211		0
+SMPL213		0
+SMPL215		0
+SMPL217		0
+SMPL219		0
+SMPL221		0
+SMPL223		0
+SMPL225		0
+SMPL227		0
+SMPL229		0
+SMPL23		0
+SMPL231		0
+SMPL233		0
+SMPL235		0
+SMPL237		0
+SMPL239		0
+SMPL241		0
+SMPL243		0
+SMPL245		0
+SMPL247		0
+SMPL249		0
+SMPL25		0
+SMPL251		0
+SMPL253		0
+SMPL255		0
+SMPL257		0
+SMPL259		0
+SMPL261		0
+SMPL263		0
+SMPL265		0
+SMPL267		0
+SMPL269		0
+SMPL27		0
+SMPL271		0
+SMPL273		0
+SMPL275		0
+SMPL277		0
+SMPL279		0
+SMPL281		0
+SMPL283		0
+SMPL285		0
+SMPL287		0
+SMPL289		0
+SMPL29		0
+SMPL291		0
+SMPL293		0
+SMPL295		0
+SMPL297		0
+SMPL299		0
+SMPL3		0
+SMPL301		0
+SMPL303		0
+SMPL305		0
+SMPL307		0
+SMPL309		0
+SMPL31		0
+SMPL311		0
+SMPL313		0
+SMPL315		0
+SMPL317		0
+SMPL319		0
+SMPL321		0
+SMPL323		0
+SMPL325		0
+SMPL327		0
+SMPL329		0
+SMPL33		0
+SMPL331		0
+SMPL333		0
+SMPL335		0
+SMPL337		0
+SMPL339		0
+SMPL341		0
+SMPL343		0
+SMPL345		0
+SMPL347		0
+SMPL349		0
+SMPL35		0
+SMPL351		0
+SMPL353		0
+SMPL355		0
+SMPL357		0
+SMPL359		0
+SMPL361		0
+SMPL363		0
+SMPL365		0
+SMPL367		0
+SMPL369		0
+SMPL37		0
+SMPL371		0
+SMPL373		0
+SMPL375		0
+SMPL377		0
+SMPL379		0
+SMPL381		0
+SMPL383		0
+SMPL385		0
+SMPL387		0
+SMPL389		0
+SMPL39		0
+SMPL391		0
+SMPL393		0
+SMPL395		0
+SMPL397		0
+SMPL399		0
+SMPL41		0
+SMPL43		0
+SMPL45		0
+SMPL47		0
+SMPL49		0
+SMPL5		0
+SMPL51		0
+SMPL53		0
+SMPL55		0
+SMPL57		0
+SMPL59		0
+SMPL61		0
+SMPL63		0
+SMPL65		0
+SMPL67		0
+SMPL69		0
+SMPL7		0
+SMPL71		0
+SMPL73		0
+SMPL75		0
+SMPL77		0
+SMPL79		0
+SMPL81		0
+SMPL83		0
+SMPL85		0
+SMPL87		0
+SMPL89		0
+SMPL9		0
+SMPL91		0
+SMPL93		0
+SMPL95		0
+SMPL97		0
+SMPL99		0

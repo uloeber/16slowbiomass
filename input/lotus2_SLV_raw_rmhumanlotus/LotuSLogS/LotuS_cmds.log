@@ -1,0 +1,33 @@
+[cmd] rm -f -r lotus2_SLV_raw_rmhumanlotus/tmpFiles/
+[cmd] mkdir -p lotus2_SLV_raw_rmhumanlotus/tmpFiles/
+[cmd] cp /fast/AG_Forslund/bin/VMbin/lotus2/configs/sdm_miSeq.txt lotus2_SLV_raw_rmhumanlotus/primary
+[cmd] /fast/AG_Forslund/bin/VMbin/lotus2//bin//sdm  -i_path input_bunzip/  -o_fna lotus2_SLV_raw_rmhumanlotus/tmpFiles//demulti.1.fna,lotus2_SLV_raw_rmhumanlotus/tmpFiles//demulti.2.fna  -o_fna2 lotus2_SLV_raw_rmhumanlotus/tmpFiles//demulti.1.add.fna,lotus2_SLV_raw_rmhumanlotus/tmpFiles//demulti.2.add.fna  -sample_sep ___  -log lotus2_SLV_raw_rmhumanlotus/LotuSLogS//demulti.log -map lotus2_SLV_raw_rmhumanlotus/primary/in.map   -options /fast/AG_Forslund/bin/VMbin/lotus2/configs/sdm_miSeq.txt    -o_dereplicate lotus2_SLV_raw_rmhumanlotus/tmpFiles//derep.fas -dere_size_fmt 0 -min_derep_copies 8:1,4:2,3:3 -suppressOutput 1   -o_qual_offset 33 -paired 2  -oneLineFastaFormat 1   -threads 1 
+[cmd] mkdir -p lotus2_SLV_raw_rmhumanlotus/LotuSLogS//SDMperFile/
+[cmd]  mv lotus2_SLV_raw_rmhumanlotus/LotuSLogS//demulti.log0* lotus2_SLV_raw_rmhumanlotus/LotuSLogS//SDMperFile/
+[cmd] tar zcf lotus2_SLV_raw_rmhumanlotus/LotuSLogS//SDMperFile.tar.gz lotus2_SLV_raw_rmhumanlotus/LotuSLogS//SDMperFile/
+[cmd]  rm -r lotus2_SLV_raw_rmhumanlotus/LotuSLogS//SDMperFile/
+[cmd] rm -f lotus2_SLV_raw_rmhumanlotus/tmpFiles//finalOTU.uc lotus2_SLV_raw_rmhumanlotus/tmpFiles//finalOTU.ADD.paf lotus2_SLV_raw_rmhumanlotus/tmpFiles//finalOTU.ADDREF.paf lotus2_SLV_raw_rmhumanlotus/tmpFiles//finalOTU.REST.paf lotus2_SLV_raw_rmhumanlotus/tmpFiles//finalOTU.RESTREF.paf
+[cmd] /usr/bin/usearch -cluster_otus lotus2_SLV_raw_rmhumanlotus/tmpFiles//derep.fas -otus lotus2_SLV_raw_rmhumanlotus/tmpFiles//tmp_otu.fa   -minsize 1 -log lotus2_SLV_raw_rmhumanlotus/LotuSLogS//UPARSE.log  -uparseout lotus2_SLV_raw_rmhumanlotus/tmpFiles//finalOTU.uc 
+[cmd] /fast/AG_Forslund/bin/VMbin/lotus2//bin//minimap2-2.17_x64-linux/minimap2  -x sr --sr -u both --secondary=no -N 30 -c  -t 1 -o lotus2_SLV_raw_rmhumanlotus/tmpFiles//add.paf lotus2_SLV_raw_rmhumanlotus/tmpFiles//tmp_otu.fa lotus2_SLV_raw_rmhumanlotus/tmpFiles//demulti.1.add.fna.singl 
+[cmd] cat lotus2_SLV_raw_rmhumanlotus/tmpFiles//add.paf >> lotus2_SLV_raw_rmhumanlotus/tmpFiles//finalOTU.ADD.paf
+[cmd] /fast/AG_Forslund/bin/VMbin/lotus2//bin//sdm -i lotus2_SLV_raw_rmhumanlotus/tmpFiles//derep.fas.rest -o_fna lotus2_SLV_raw_rmhumanlotus/tmpFiles//derep.fas.rest1
+[cmd] rm -f lotus2_SLV_raw_rmhumanlotus/tmpFiles//derep.fas.rest
+[cmd] mv lotus2_SLV_raw_rmhumanlotus/tmpFiles//derep.fas.rest1 lotus2_SLV_raw_rmhumanlotus/tmpFiles//derep.fas.rest
+[cmd] /fast/AG_Forslund/bin/VMbin/lotus2//bin//minimap2-2.17_x64-linux/minimap2  -x sr --sr -u both --secondary=no -N 30 -c  -t 1 -o lotus2_SLV_raw_rmhumanlotus/tmpFiles//rests.paf lotus2_SLV_raw_rmhumanlotus/tmpFiles//tmp_otu.fa lotus2_SLV_raw_rmhumanlotus/tmpFiles//derep.fas.rest 
+[cmd] cat lotus2_SLV_raw_rmhumanlotus/tmpFiles//rests.paf >> lotus2_SLV_raw_rmhumanlotus/tmpFiles//finalOTU.REST.paf
+[cmd] /fast/AG_Forslund/bin/VMbin/lotus2//bin//sdm -i_fastq lotus2_SLV_raw_rmhumanlotus/tmpFiles//derep.1.hq.fq,lotus2_SLV_raw_rmhumanlotus/tmpFiles//derep.2.hq.fq -o_fastq lotus2_SLV_raw_rmhumanlotus/tmpFiles//otu_seeds.1.fq,lotus2_SLV_raw_rmhumanlotus/tmpFiles//otu_seeds.2.fq -uparseVer 11.0  -optimalRead2Cluster lotus2_SLV_raw_rmhumanlotus/tmpFiles//finalOTU.uc  -paired 2 -sample_sep ___ -derep_map lotus2_SLV_raw_rmhumanlotus/tmpFiles//derep.map -options /fast/AG_Forslund/bin/VMbin/lotus2/configs/sdm_miSeq.txt -merge_pairs_seed 1   -o_qual_offset 33 -mergedPairs 0 -log lotus2_SLV_raw_rmhumanlotus/LotuSLogS//SeedExtensionStats.txt  -OTU_fallback lotus2_SLV_raw_rmhumanlotus/tmpFiles//tmp_otu.fa -ucAdditionalCounts lotus2_SLV_raw_rmhumanlotus/tmpFiles//finalOTU.ADD.paf -ucAdditionalCounts1 lotus2_SLV_raw_rmhumanlotus/tmpFiles//finalOTU.REST.paf -otu_matrix lotus2_SLV_raw_rmhumanlotus/OTU.txt -id 97 -minQueryCov 0.8  -count_chimeras F 
+[cmd] /fast/AG_Forslund/bin/VMbin/lotus2//bin//minimap2-2.17_x64-linux/minimap2   -x sr --sr -u both --secondary=no -N 30 -c  -t 1 -o lotus2_SLV_raw_rmhumanlotus/tmpFiles//otu_seeds.fna.phiX.0.cont_hit.paf /fast/AG_Forslund/bin/VMbin/lotus2//DB//phiX.fasta lotus2_SLV_raw_rmhumanlotus/tmpFiles//otu_seeds.fna
+[cmd] /fast/AG_Forslund/bin/VMbin/lotus2//bin//minimap2-2.17_x64-linux/minimap2   -x sr --sr -u both --secondary=no -N 30 -c  -t 1 -o lotus2_SLV_raw_rmhumanlotus/tmpFiles//otu_seeds.fna.offTarget.0.cont_hit.paf /fast/AG_Forslund/shared/references/HG38.p14_progenomes3masked.fa lotus2_SLV_raw_rmhumanlotus/tmpFiles//otu_seeds.fna
+[cmd] gzip lotus2_SLV_raw_rmhumanlotus/tmpFiles//otu_seeds.fna.offTarget.0.cont_hit.paf
+mv lotus2_SLV_raw_rmhumanlotus/tmpFiles//otu_seeds.fna.offTarget.0.cont_hit.paf.gz lotus2_SLV_raw_rmhumanlotus/LotuSLogS/
+[cmd] cp lotus2_SLV_raw_rmhumanlotus/tmpFiles//otu_seeds.fna lotus2_SLV_raw_rmhumanlotus/OTU.fna
+[cmd] /fast/AG_Forslund/bin/VMbin/lotus2//bin//lambda/lambda -t 1 -id 75 -nm 200 -p blastn -e 1e-8 -so 7 -sl 16 -sd 1 -b 5 -pd on -q lotus2_SLV_raw_rmhumanlotus/OTU.fna -d /fast/AG_Forslund/bin/VMbin/lotus2//DB//SLV_138.1_SSU.fasta -o lotus2_SLV_raw_rmhumanlotus/tmpFiles//tax.m8 -oc 'qseqid sseqid pident length mismatch gapopen qstart qend sstart send qlen'
+[cmd] mv lotus2_SLV_raw_rmhumanlotus/tmpFiles//tax.m8 lotus2_SLV_raw_rmhumanlotus/tmpFiles//tax.0.blast
+[cmd] cp lotus2_SLV_raw_rmhumanlotus/tmpFiles//tax.0.blast lotus2_SLV_raw_rmhumanlotus/ExtraFiles//
+[cmd] /fast/AG_Forslund/bin/VMbin/lotus2//bin//LCA  -i lotus2_SLV_raw_rmhumanlotus/tmpFiles//tax.0.blast -r /fast/AG_Forslund/bin/VMbin/lotus2//DB//SLV_138.1_SSU.tax -o lotus2_SLV_raw_rmhumanlotus/hiera_BLAST.txt  -LCAfrac 0.8  -cover 0.5 -minAlignLen 70 -id 97,95,88,83,81,78,0
+[cmd] mkdir -p lotus2_SLV_raw_rmhumanlotus/higherLvl/
+[cmd] cp lotus2_SLV_raw_rmhumanlotus/OTU.txt lotus2_SLV_raw_rmhumanlotus/higherLvl/
+[cmd] /fast/AG_Forslund/bin/VMbin/lotus2//bin//mafft-linux64/mafft.bat --thread 1 --quiet lotus2_SLV_raw_rmhumanlotus/OTU.fna > lotus2_SLV_raw_rmhumanlotus/ExtraFiles//OTU.MSA.fna
+[cmd] /fast/AG_Forslund/bin/VMbin/lotus2//bin//FastTreeMP -nt -gtr -no2nd -spr 4 -log lotus2_SLV_raw_rmhumanlotus/LotuSLogS//fasttree.log -quiet -out lotus2_SLV_raw_rmhumanlotus/OTUphylo.nwk lotus2_SLV_raw_rmhumanlotus/ExtraFiles//OTU.MSA.fna
+[cmd] /usr/bin/Rscript  --vanilla  /fast/AG_Forslund/bin/VMbin/lotus2/bin/R/l2phyloseq.R lotus2_SLV_raw_rmhumanlotus/OTU.txt lotus2_SLV_raw_rmhumanlotus/hiera_BLAST.txt lotus2_SLV_raw_rmhumanlotus/primary/in.map 1 lotus2_SLV_raw_rmhumanlotus/OTUphylo.nwk
+[cmd] rm -rf lotus2_SLV_raw_rmhumanlotus/tmpFiles/

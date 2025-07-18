@@ -1,0 +1,3 @@
+Dereplication log:
+Dereplication: 4,156 unique sequences (avg size 18; 73,216 counts)
+44,629/48,785 not passing derep conditions (49,233 counts; 8:1,4:2,3:3)

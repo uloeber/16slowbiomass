@@ -1,0 +1,223 @@
+{
+ "id":null,
+ "format": "Biological Observation Matrix 0.9.1-dev",
+	 "format_url": "http://biom-format.org/documentation/format_versions/biom-1.0.html",
+	 "type": "OTU table",
+	 "generated_by": "LotuS 2.25",
+	 "date": "2023-04-30T15:36:53",
+ "rows":[
+            {"id":"OTU1", "metadata":{"taxonomy":["k__Bacteria", "p__Firmicutes", "c__Bacilli", "o__Bacillales", "f__Bacillaceae", "g__Bacillus", "s__?"]}},
+            {"id":"OTU10", "metadata":{"taxonomy":["k__Bacteria", "p__Firmicutes", "c__Bacilli", "o__Lactobacillales", "f__Enterococcaceae", "g__Enterococcus", "s__Enterococcus faecalis"]}},
+            {"id":"OTU11", "metadata":{"taxonomy":["k__Bacteria", "p__Firmicutes", "c__Bacilli", "o__Lactobacillales", "f__Enterococcaceae", "g__Enterococcus", "s__Enterococcus faecalis"]}},
+            {"id":"OTU12", "metadata":{"taxonomy":["k__Bacteria", "p__Firmicutes", "c__Bacilli", "o__Lactobacillales", "f__Listeriaceae", "g__Listeria", "s__Listeria monocytogenes"]}},
+            {"id":"OTU13", "metadata":{"taxonomy":["k__Bacteria", "p__Firmicutes", "c__Bacilli", "o__Lactobacillales", "f__Listeriaceae", "g__Listeria", "s__Listeria monocytogenes"]}},
+            {"id":"OTU14", "metadata":{"taxonomy":["k__Bacteria", "p__Proteobacteria", "c__Gammaproteobacteria", "o__Pseudomonadales", "f__Pseudomonadaceae", "g__Pseudomonas", "s__Pseudomonas aeruginosa"]}},
+            {"id":"OTU15", "metadata":{"taxonomy":["k__Bacteria", "p__Firmicutes", "c__Bacilli", "o__Staphylococcales", "f__Staphylococcaceae", "g__?", "s__?"]}},
+            {"id":"OTU16", "metadata":{"taxonomy":["k__Bacteria", "p__Firmicutes", "c__Bacilli", "o__Staphylococcales", "f__Staphylococcaceae", "g__Staphylococcus", "s__Staphylococcus aureus"]}},
+            {"id":"OTU17", "metadata":{"taxonomy":["k__Bacteria", "p__Firmicutes", "c__Bacilli", "o__Bacillales", "f__Bacillaceae", "g__Bacillus", "s__?"]}},
+            {"id":"OTU18", "metadata":{"taxonomy":["k__Bacteria", "p__Firmicutes", "c__Bacilli", "o__Bacillales", "f__Bacillaceae", "g__Bacillus", "s__?"]}},
+            {"id":"OTU19", "metadata":{"taxonomy":["k__Bacteria", "p__Proteobacteria", "c__Gammaproteobacteria", "o__Enterobacterales", "f__Vibrionaceae", "g__Vibrio", "s__?"]}},
+            {"id":"OTU2", "metadata":{"taxonomy":["k__Bacteria", "p__Firmicutes", "c__Bacilli", "o__Bacillales", "f__Bacillaceae", "g__Bacillus", "s__?"]}},
+            {"id":"OTU20", "metadata":{"taxonomy":["k__Bacteria", "p__Actinobacteriota", "c__Actinobacteria", "o__Propionibacteriales", "f__Propionibacteriaceae", "g__Cutibacterium", "s__Cutibacterium acnes"]}},
+            {"id":"OTU21", "metadata":{"taxonomy":["k__Bacteria", "p__Proteobacteria", "c__Gammaproteobacteria", "o__Enterobacterales", "f__Vibrionaceae", "g__Vibrio", "s__Vibrio metschnikovii"]}},
+            {"id":"OTU22", "metadata":{"taxonomy":["k__Bacteria", "p__Proteobacteria", "c__Gammaproteobacteria", "o__Enterobacterales", "f__Vibrionaceae", "g__Vibrio", "s__Vibrio cholerae"]}},
+            {"id":"OTU23", "metadata":{"taxonomy":["k__Bacteria", "p__Proteobacteria", "c__Gammaproteobacteria", "o__Enterobacterales", "f__Vibrionaceae", "g__Vibrio", "s__Vibrio cholerae"]}},
+            {"id":"OTU24", "metadata":{"taxonomy":["k__Bacteria", "p__Actinobacteriota", "c__Actinobacteria", "o__Propionibacteriales", "f__Propionibacteriaceae", "g__Cutibacterium", "s__?"]}},
+            {"id":"OTU25", "metadata":{"taxonomy":["k__Bacteria", "p__Proteobacteria", "c__Gammaproteobacteria", "o__Enterobacterales", "f__Aeromonadaceae", "g__Aeromonas", "s__?"]}},
+            {"id":"OTU26", "metadata":{"taxonomy":["k__Bacteria", "p__Proteobacteria", "c__Gammaproteobacteria", "o__Enterobacterales", "f__Enterobacteriaceae", "g__Plesiomonas", "s__Plesiomonas shigelloides"]}},
+            {"id":"OTU27", "metadata":{"taxonomy":["k__Bacteria", "p__Firmicutes", "c__Bacilli", "o__Lactobacillales", "f__Vagococcaceae", "g__Vagococcus", "s__Vagococcus salmoninarum"]}},
+            {"id":"OTU28", "metadata":{"taxonomy":["k__Bacteria", "p__Proteobacteria", "c__Gammaproteobacteria", "o__Enterobacterales", "f__Enterobacteriaceae", "g__Plesiomonas", "s__Plesiomonas shigelloides"]}},
+            {"id":"OTU29", "metadata":{"taxonomy":["k__Bacteria", "p__Fusobacteriota", "c__Fusobacteriia", "o__Fusobacteriales", "f__Fusobacteriaceae", "g__Cetobacterium", "s__Cetobacterium somerae"]}},
+            {"id":"OTU3", "metadata":{"taxonomy":["k__Bacteria", "p__Proteobacteria", "c__Gammaproteobacteria", "o__Enterobacterales", "f__Enterobacteriaceae", "g__Escherichia-Shigella", "s__Escherichia coli"]}},
+            {"id":"OTU30", "metadata":{"taxonomy":["k__Bacteria", "p__Fusobacteriota", "c__Fusobacteriia", "o__Fusobacteriales", "f__Fusobacteriaceae", "g__Cetobacterium", "s__?"]}},
+            {"id":"OTU31", "metadata":{"taxonomy":["k__Bacteria", "p__Proteobacteria", "c__Gammaproteobacteria", "o__Enterobacterales", "f__Aeromonadaceae", "g__Aeromonas", "s__?"]}},
+            {"id":"OTU32", "metadata":{"taxonomy":["k__Bacteria", "p__Proteobacteria", "c__Gammaproteobacteria", "o__Enterobacterales", "f__Vibrionaceae", "g__Vibrio", "s__?"]}},
+            {"id":"OTU33", "metadata":{"taxonomy":["k__Bacteria", "p__Firmicutes", "c__Bacilli", "o__?", "f__?", "g__?", "s__?"]}},
+            {"id":"OTU34", "metadata":{"taxonomy":["k__Bacteria", "p__Firmicutes", "c__Bacilli", "o__Paenibacillales", "f__Paenibacillaceae", "g__?", "s__?"]}},
+            {"id":"OTU35", "metadata":{"taxonomy":["k__?", "p__?", "c__?", "o__?", "f__?", "g__?", "s__?"]}},
+            {"id":"OTU36", "metadata":{"taxonomy":["k__?", "p__?", "c__?", "o__?", "f__?", "g__?", "s__?"]}},
+            {"id":"OTU37", "metadata":{"taxonomy":["k__?", "p__?", "c__?", "o__?", "f__?", "g__?", "s__?"]}},
+            {"id":"OTU4", "metadata":{"taxonomy":["k__Bacteria", "p__Proteobacteria", "c__Gammaproteobacteria", "o__Enterobacterales", "f__Enterobacteriaceae", "g__Escherichia-Shigella", "s__Escherichia coli"]}},
+            {"id":"OTU5", "metadata":{"taxonomy":["k__Bacteria", "p__Proteobacteria", "c__Gammaproteobacteria", "o__Enterobacterales", "f__Enterobacteriaceae", "g__Salmonella", "s__Salmonella enterica"]}},
+            {"id":"OTU6", "metadata":{"taxonomy":["k__Bacteria", "p__Proteobacteria", "c__Gammaproteobacteria", "o__Enterobacterales", "f__Enterobacteriaceae", "g__Salmonella", "s__Salmonella enterica"]}},
+            {"id":"OTU7", "metadata":{"taxonomy":["k__Bacteria", "p__Firmicutes", "c__Bacilli", "o__Lactobacillales", "f__Lactobacillaceae", "g__Limosilactobacillus", "s__Lactobacillus fermentum"]}},
+            {"id":"OTU8", "metadata":{"taxonomy":["k__Bacteria", "p__Firmicutes", "c__Bacilli", "o__Lactobacillales", "f__Lactobacillaceae", "g__Limosilactobacillus", "s__Lactobacillus fermentum"]}},
+            {"id":"OTU9", "metadata":{"taxonomy":["k__Bacteria", "p__Proteobacteria", "c__Gammaproteobacteria", "o__Pseudomonadales", "f__Pseudomonadaceae", "g__Pseudomonas", "s__Pseudomonas aeruginosa"]}}
+],
+ "columns":[
+            {"id":"341F-785R-P01-A01-1", "metadata":{
+                             "fastqFile":"341F-785R-P01-A01-1_R1.fastq.gz,341F-785R-P01-A01-1_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-A02-11", "metadata":{
+                             "fastqFile":"341F-785R-P01-A02-11_R1.fastq.gz,341F-785R-P01-A02-11_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-A03-24", "metadata":{
+                             "fastqFile":"341F-785R-P01-A03-24_R1.fastq.gz,341F-785R-P01-A03-24_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-A04-42", "metadata":{
+                             "fastqFile":"341F-785R-P01-A04-42_R1.fastq.gz,341F-785R-P01-A04-42_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-A05-55", "metadata":{
+                             "fastqFile":"341F-785R-P01-A05-55_R1.fastq.gz,341F-785R-P01-A05-55_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-A06-73", "metadata":{
+                             "fastqFile":"341F-785R-P01-A06-73_R1.fastq.gz,341F-785R-P01-A06-73_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-B01-2", "metadata":{
+                             "fastqFile":"341F-785R-P01-B01-2_R1.fastq.gz,341F-785R-P01-B01-2_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-B02-12", "metadata":{
+                             "fastqFile":"341F-785R-P01-B02-12_R1.fastq.gz,341F-785R-P01-B02-12_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-B03-25", "metadata":{
+                             "fastqFile":"341F-785R-P01-B03-25_R1.fastq.gz,341F-785R-P01-B03-25_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-B04-43", "metadata":{
+                             "fastqFile":"341F-785R-P01-B04-43_R1.fastq.gz,341F-785R-P01-B04-43_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-B05-61", "metadata":{
+                             "fastqFile":"341F-785R-P01-B05-61_R1.fastq.gz,341F-785R-P01-B05-61_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-B06-74", "metadata":{
+                             "fastqFile":"341F-785R-P01-B06-74_R1.fastq.gz,341F-785R-P01-B06-74_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-C01-3", "metadata":{
+                             "fastqFile":"341F-785R-P01-C01-3_R1.fastq.gz,341F-785R-P01-C01-3_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-C02-13", "metadata":{
+                             "fastqFile":"341F-785R-P01-C02-13_R1.fastq.gz,341F-785R-P01-C02-13_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-C03-31", "metadata":{
+                             "fastqFile":"341F-785R-P01-C03-31_R1.fastq.gz,341F-785R-P01-C03-31_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-C04-44", "metadata":{
+                             "fastqFile":"341F-785R-P01-C04-44_R1.fastq.gz,341F-785R-P01-C04-44_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-C05-62", "metadata":{
+                             "fastqFile":"341F-785R-P01-C05-62_R1.fastq.gz,341F-785R-P01-C05-62_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-C06-75", "metadata":{
+                             "fastqFile":"341F-785R-P01-C06-75_R1.fastq.gz,341F-785R-P01-C06-75_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-D01-4", "metadata":{
+                             "fastqFile":"341F-785R-P01-D01-4_R1.fastq.gz,341F-785R-P01-D01-4_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-D02-14", "metadata":{
+                             "fastqFile":"341F-785R-P01-D02-14_R1.fastq.gz,341F-785R-P01-D02-14_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-D03-32", "metadata":{
+                             "fastqFile":"341F-785R-P01-D03-32_R1.fastq.gz,341F-785R-P01-D03-32_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-D04-45", "metadata":{
+                             "fastqFile":"341F-785R-P01-D04-45_R1.fastq.gz,341F-785R-P01-D04-45_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-D05-63", "metadata":{
+                             "fastqFile":"341F-785R-P01-D05-63_R1.fastq.gz,341F-785R-P01-D05-63_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-D06-81", "metadata":{
+                             "fastqFile":"341F-785R-P01-D06-81_R1.fastq.gz,341F-785R-P01-D06-81_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-E01-5", "metadata":{
+                             "fastqFile":"341F-785R-P01-E01-5_R1.fastq.gz,341F-785R-P01-E01-5_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-E02-15", "metadata":{
+                             "fastqFile":"341F-785R-P01-E02-15_R1.fastq.gz,341F-785R-P01-E02-15_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-E03-33", "metadata":{
+                             "fastqFile":"341F-785R-P01-E03-33_R1.fastq.gz,341F-785R-P01-E03-33_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-E04-51", "metadata":{
+                             "fastqFile":"341F-785R-P01-E04-51_R1.fastq.gz,341F-785R-P01-E04-51_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-E05-64", "metadata":{
+                             "fastqFile":"341F-785R-P01-E05-64_R1.fastq.gz,341F-785R-P01-E05-64_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-E06-82", "metadata":{
+                             "fastqFile":"341F-785R-P01-E06-82_R1.fastq.gz,341F-785R-P01-E06-82_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-F01-6", "metadata":{
+                             "fastqFile":"341F-785R-P01-F01-6_R1.fastq.gz,341F-785R-P01-F01-6_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-F02-21", "metadata":{
+                             "fastqFile":"341F-785R-P01-F02-21_R1.fastq.gz,341F-785R-P01-F02-21_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-F03-34", "metadata":{
+                             "fastqFile":"341F-785R-P01-F03-34_R1.fastq.gz,341F-785R-P01-F03-34_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-F04-52", "metadata":{
+                             "fastqFile":"341F-785R-P01-F04-52_R1.fastq.gz,341F-785R-P01-F04-52_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-F05-65", "metadata":{
+                             "fastqFile":"341F-785R-P01-F05-65_R1.fastq.gz,341F-785R-P01-F05-65_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-G01-7", "metadata":{
+                             "fastqFile":"341F-785R-P01-G01-7_R1.fastq.gz,341F-785R-P01-G01-7_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-G02-22", "metadata":{
+                             "fastqFile":"341F-785R-P01-G02-22_R1.fastq.gz,341F-785R-P01-G02-22_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-G03-35", "metadata":{
+                             "fastqFile":"341F-785R-P01-G03-35_R1.fastq.gz,341F-785R-P01-G03-35_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-G04-53", "metadata":{
+                             "fastqFile":"341F-785R-P01-G04-53_R1.fastq.gz,341F-785R-P01-G04-53_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-G05-71", "metadata":{
+                             "fastqFile":"341F-785R-P01-G05-71_R1.fastq.gz,341F-785R-P01-G05-71_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-H01-8", "metadata":{
+                             "fastqFile":"341F-785R-P01-H01-8_R1.fastq.gz,341F-785R-P01-H01-8_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-H02-23", "metadata":{
+                             "fastqFile":"341F-785R-P01-H02-23_R1.fastq.gz,341F-785R-P01-H02-23_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-H03-41", "metadata":{
+                             "fastqFile":"341F-785R-P01-H03-41_R1.fastq.gz,341F-785R-P01-H03-41_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-H04-54", "metadata":{
+                             "fastqFile":"341F-785R-P01-H04-54_R1.fastq.gz,341F-785R-P01-H04-54_R2.fastq.gz",
+                             "SequencingRun":"a"}},
+            {"id":"341F-785R-P01-H05-72", "metadata":{
+                             "fastqFile":"341F-785R-P01-H05-72_R1.fastq.gz,341F-785R-P01-H05-72_R2.fastq.gz",
+                             "SequencingRun":"a"}}],
+"matrix_type": "dense",
+    "matrix_element_type": "int",
+    "shape": [37,45],
+		"data":  [[11858,14577,9095,4461,8188,9607,13502,9602,1777,3280,8495,13884,11273,8758,4863,3517,7223,11358,4523,6062,7289,2600,5386,2,8001,12856,7807,8990,11386,0,2970,9431,7093,2406,5416,11800,15305,4441,6848,17591,12489,13296,2297,6760,14543],
+[1580,1993,1145,712,1405,1634,1820,1338,228,670,1235,1976,1660,1291,698,734,1143,1806,727,955,1156,607,835,1,1231,1863,1231,1365,1778,0,390,1357,1151,368,1018,1761,2378,754,1258,2797,1962,2088,389,1255,2403],
+[1369,1705,1072,650,1328,1420,1587,1206,199,626,1168,1853,1344,1208,568,713,1114,1705,676,846,1079,563,910,1,1042,1630,1067,1263,1713,0,373,1160,950,347,955,1565,2029,756,1142,2407,1650,1901,379,1262,2165],
+[1364,1613,1059,613,1263,1315,1568,1074,243,637,1052,1629,1273,1136,624,737,987,1553,617,875,1008,574,865,0,952,1545,1028,1167,1586,0,346,1145,954,337,912,1470,1877,674,1042,2343,1547,1776,394,1152,2051],
+[1289,1594,924,620,1199,1294,1436,1008,202,542,1068,1630,1234,1003,551,679,982,1426,537,698,927,524,826,0,941,1449,844,1132,1629,0,315,1063,856,288,953,1273,1842,561,1006,2260,1557,1692,326,1056,1897],
+[829,1048,687,470,1015,1217,1016,811,153,551,977,1375,967,728,436,627,856,1214,414,644,792,520,801,0,623,1027,635,942,1321,1,251,759,671,288,759,1065,1302,398,927,1930,1181,1357,277,1029,1840],
+[690,813,524,314,767,739,808,611,127,425,587,893,763,582,303,458,603,816,339,461,510,419,485,1,473,818,526,601,854,3,192,585,543,207,637,800,1064,357,721,1364,830,877,231,754,1028],
+[610,785,534,325,858,702,661,542,133,430,579,805,704,528,294,417,551,859,337,485,480,437,558,0,488,791,493,567,963,2,179,550,547,173,645,791,1009,376,746,1234,814,1016,238,760,1113],
+[46,34,40,6,8,20,72,28,8,10,15,27,50,18,21,10,11,30,9,14,17,2,12,0,46,23,30,48,15,0,15,34,15,13,3,62,40,13,16,69,67,38,7,15,44],
+[24,26,12,1,1,12,29,20,1,0,13,13,23,13,19,0,4,10,2,3,10,0,2,0,20,13,11,11,7,0,8,11,8,4,0,24,17,23,5,35,37,17,1,2,23],
+[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,211,0,0,0,0,0,0,0],
+[9965,12227,7849,4194,7768,8483,11211,8166,1627,3188,7740,12586,9684,7568,4117,3385,6881,10494,4077,5130,6274,2405,5031,0,7210,11328,6885,8426,10774,0,2484,8033,6343,2308,5313,9900,13320,4165,6434,15602,10346,11621,2147,6505,12852],
+[1,0,0,2,0,0,0,0,0,8,0,0,0,0,0,8,0,0,4,0,1,8,2,16,0,0,0,0,2,140,0,0,1,0,1,0,0,1,2,1,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,192,0,0,0,0,0,0,0],
+[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,180,0,0,0,0,0,0,0],
+[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,172,0,0,0,0,0,0,0],
+[0,0,0,2,0,0,0,0,0,3,0,0,0,0,0,7,0,0,1,0,1,9,1,14,1,0,2,0,0,119,0,0,0,0,2,0,1,0,1,0,1,0,2,0,0],
+[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,156,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,143,1,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,119,0,0,0,0,0,0,0],
+[7690,9599,5267,3324,6215,7381,8195,6154,1089,2399,5948,10261,7251,5756,2994,2807,5309,7996,3626,4427,5239,2281,4351,1,5635,8843,5217,6581,8582,0,1819,5760,4838,1667,3927,7554,9596,2835,4811,11446,8630,9841,1944,5282,10700],
+[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,101,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,0,0,0,0,0,0,0],
+[0,1,1,1,0,0,1,3,0,0,1,0,0,0,0,0,0,1,1,2,0,0,1,0,1,2,2,1,2,0,1,2,0,0,4,0,1,0,2,3,4,1,0,1,3],
+[2,1,2,1,0,0,1,2,0,2,2,5,1,1,0,0,1,3,0,0,1,0,0,0,0,0,0,0,3,0,0,1,1,0,0,0,1,1,0,2,3,0,0,1,1],
+[0,0,0,0,2,0,0,0,0,0,0,0,2,0,0,0,0,0,1,1,0,2,1,0,1,0,0,0,1,0,0,0,4,0,0,1,0,0,3,0,2,0,3,3,0],
+[0,0,0,0,0,2,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,6,0,0,6],
+[0,0,0,0,0,0,4,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,3,0,1,5],
+[7084,8570,5077,2965,5196,6699,7701,5702,1011,2266,5440,9022,6978,5323,2898,2576,4851,7018,3442,4084,4994,2254,4076,0,5254,8090,4916,6146,7621,0,1628,5276,4513,1458,3526,7083,8889,2837,4591,10584,8218,9129,1825,4910,9990],
+[5943,7290,4553,2557,4631,5631,6759,4806,878,2060,4686,7802,5996,4767,2430,2496,4167,6188,2912,3585,4199,1868,3412,1,4473,7121,4313,5238,6606,0,1570,4724,3809,1362,3132,6137,7836,2464,4136,9177,6976,7566,1521,4256,8559],
+[5859,6772,4226,2561,4281,5162,6370,4659,840,2034,4393,7017,5641,4418,2309,2413,3929,5853,2718,3293,3837,1739,3202,1,4347,6616,4089,5082,6154,0,1403,4317,3513,1248,2883,5748,7247,2125,3869,8593,6582,7094,1476,4062,7948],
+[2988,3665,2121,1179,2612,2963,3637,2695,470,1061,2657,3645,3186,1855,1630,1272,1846,2727,1079,1864,2303,752,1892,0,2138,3644,1983,2534,3807,0,830,2072,2562,754,1671,3323,4190,1110,2244,4978,3954,4065,735,2712,4729],
+[2425,3018,1720,1059,2495,2853,3037,2356,378,1012,2479,3471,2733,1538,1428,1215,1707,2593,974,1564,1966,739,1750,1,1778,3019,1574,2299,3564,0,681,1821,2088,754,1591,2700,3570,938,2092,4729,3356,3478,601,2605,4191],
+[1593,1974,1234,668,1448,1779,1974,1451,273,728,1468,2059,1830,1274,812,868,1323,1750,738,1042,1410,657,1126,0,1182,1998,1223,1328,2022,0,449,1438,1258,410,1182,1951,2385,809,1472,2831,2133,2419,430,1486,2765]]
+}

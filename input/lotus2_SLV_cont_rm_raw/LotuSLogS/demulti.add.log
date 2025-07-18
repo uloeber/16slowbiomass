@@ -1,0 +1,76 @@
+sdm 2.08 beta
+Input File:  several
+Output File: lotus2_SLV_cont_rm_raw/tmpFiles//demulti.1.fna
+
+Reads not High qual_: 0
+Rejected:0
+Accepted (High qual): 0 (0 end-trimmed)
+Accepted (Mid qual): 0
+Singletons among these: 0; 0
+Bad Reads recovered with dereplication: 0
+Min/Avg/Max stats Pair 1
+     - sequence Length : 0/0/0
+     - Quality :   0/0/0
+     - Median sequence Length : 0, Quality : 0
+     - Accum. Error 0.476
+Trimmed due to:
+  > 25 avg qual_ in 20 bp windows :          0
+  > (-1) acc. errors, trimmed seqs :       0
+Rejected due to:
+  < min Sequence length (200)  :                0
+  < avg Quality (20)  :                    0
+  < window (50 nt) avg. Quality (25)  :    0
+  > max Sequence length (1000)  :               0
+  > (8) homo-nt run  :                     0
+  > (1) amb. Bases  :                      0
+  > (2.7) binomial est. errors :           0
+Specific sequence searches:
+  -With fwd Primer remaining (<= 0 mismatches) :           0
+  -Barcode unidentified (max 0 errors) :                   0
+
+SampleID	Barcode	Instances
+Sample_341F-785R-P01-A01-1_hgrm		0
+Sample_341F-785R-P01-A02-11_hgrm		0
+Sample_341F-785R-P01-A03-24_hgrm		0
+Sample_341F-785R-P01-A04-42_hgrm		0
+Sample_341F-785R-P01-A05-55_hgrm		0
+Sample_341F-785R-P01-A06-73_hgrm		0
+Sample_341F-785R-P01-B01-2_hgrm		0
+Sample_341F-785R-P01-B02-12_hgrm		0
+Sample_341F-785R-P01-B03-25_hgrm		0
+Sample_341F-785R-P01-B04-43_hgrm		0
+Sample_341F-785R-P01-B05-61_hgrm		0
+Sample_341F-785R-P01-B06-74_hgrm		0
+Sample_341F-785R-P01-C01-3_hgrm		0
+Sample_341F-785R-P01-C02-13_hgrm		0
+Sample_341F-785R-P01-C03-31_hgrm		0
+Sample_341F-785R-P01-C04-44_hgrm		0
+Sample_341F-785R-P01-C05-62_hgrm		0
+Sample_341F-785R-P01-C06-75_hgrm		0
+Sample_341F-785R-P01-D01-4_hgrm		0
+Sample_341F-785R-P01-D02-14_hgrm		0
+Sample_341F-785R-P01-D03-32_hgrm		0
+Sample_341F-785R-P01-D04-45_hgrm		0
+Sample_341F-785R-P01-D05-63_hgrm		0
+Sample_341F-785R-P01-D06-81_hgrm		0
+Sample_341F-785R-P01-E01-5_hgrm		0
+Sample_341F-785R-P01-E02-15_hgrm		0
+Sample_341F-785R-P01-E03-33_hgrm		0
+Sample_341F-785R-P01-E04-51_hgrm		0
+Sample_341F-785R-P01-E05-64_hgrm		0
+Sample_341F-785R-P01-E06-82_hgrm		0
+Sample_341F-785R-P01-F01-6_hgrm		0
+Sample_341F-785R-P01-F02-21_hgrm		0
+Sample_341F-785R-P01-F03-34_hgrm		0
+Sample_341F-785R-P01-F04-52_hgrm		0
+Sample_341F-785R-P01-F05-65_hgrm		0
+Sample_341F-785R-P01-G01-7_hgrm		0
+Sample_341F-785R-P01-G02-22_hgrm		0
+Sample_341F-785R-P01-G03-35_hgrm		0
+Sample_341F-785R-P01-G04-53_hgrm		0
+Sample_341F-785R-P01-G05-71_hgrm		0
+Sample_341F-785R-P01-H01-8_hgrm		0
+Sample_341F-785R-P01-H02-23_hgrm		0
+Sample_341F-785R-P01-H03-41_hgrm		0
+Sample_341F-785R-P01-H04-54_hgrm		0
+Sample_341F-785R-P01-H05-72_hgrm		0

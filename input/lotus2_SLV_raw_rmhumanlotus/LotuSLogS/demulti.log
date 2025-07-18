@@ -1,0 +1,77 @@
+sdm 2.08 beta
+Input File:  several
+Output File: lotus2_SLV_raw_rmhumanlotus/tmpFiles//demulti.1.fna
+
+Reads processed: 2,368,957; 2,368,957 (pair 1;pair 2)
+Rejected: 793,717; 516,286
+Accepted (High qual): 1,574,748; 1,852,669 (2,600; 328,186 end-trimmed)
+Accepted (Mid qual): 492;2
+Singletons among these: 0; 0
+Bad Reads recovered with dereplication: 569,275
+Min/Avg/Max stats Pair 1
+     - sequence Length : 200/200/200
+     - Quality :   34/36.5/38
+     - Median sequence Length : 0, Quality : 0
+     - Accum. Error 0.177
+Trimmed due to:
+  > 25 avg qual_ in 20 bp windows :         0; 0
+  > (0.95) acc. errors, trimmed seqs :     0; 0
+Rejected due to:
+  < min Sequence length (200)  :                569,327; 513,476
+       -after Quality trimming :           569,327; 513,476
+  < avg Quality (27)  :                    0; 0
+  < window (50 nt) avg. Quality (25)  :    16,187; 2
+  > max Sequence length (1000)  :               0; 0
+  > (8) homo-nt run  :                     1,249; 2,810
+  > (0) amb. Bases  :                      0; 0
+  > (2.7) binomial est. errors :           223,141; 0
+Specific sequence searches:
+  -With fwd Primer remaining (<= 0 mismatches) :           0; 0
+  -Barcode unidentified (max 0 errors) :                   0
+
+SampleID	Barcode	Instances
+341F-785R-P01-A01-1		63,852
+341F-785R-P01-A02-11		77,930
+341F-785R-P01-A03-24		47,427
+341F-785R-P01-A04-42		26,871
+341F-785R-P01-A05-55		50,781
+341F-785R-P01-A06-73		59,289
+341F-785R-P01-B01-2		72,062
+341F-785R-P01-B02-12		52,650
+341F-785R-P01-B03-25		9,669
+341F-785R-P01-B04-43		23,303
+341F-785R-P01-B05-61		50,414
+341F-785R-P01-B06-74		80,468
+341F-785R-P01-C01-3		63,182
+341F-785R-P01-C02-13		48,046
+341F-785R-P01-C03-31		27,190
+341F-785R-P01-C04-44		29,438
+341F-785R-P01-C05-62		43,597
+341F-785R-P01-C06-75		65,729
+341F-785R-P01-D01-4		31,288
+341F-785R-P01-D02-14		36,228
+341F-785R-P01-D03-32		43,805
+341F-785R-P01-D04-45		21,908
+341F-785R-P01-D05-63		35,807
+341F-785R-P01-D06-81		4,943
+341F-785R-P01-E01-5		46,197
+341F-785R-P01-E02-15		73,037
+341F-785R-P01-E03-33		44,140
+341F-785R-P01-E04-51		54,073
+341F-785R-P01-E05-64		70,639
+341F-785R-P01-E06-82		334
+341F-785R-P01-F01-6		16,072
+341F-785R-P01-F02-21		49,984
+341F-785R-P01-F03-34		41,945
+341F-785R-P01-F04-52		14,511
+341F-785R-P01-F05-65		34,770
+341F-785R-P01-G01-7		65,674
+341F-785R-P01-G02-22		84,607
+341F-785R-P01-G03-35		28,700
+341F-785R-P01-G04-53		44,149
+341F-785R-P01-G05-71		100,893
+341F-785R-P01-H01-8		73,168
+341F-785R-P01-H02-23		79,844
+341F-785R-P01-H03-41		19,001
+341F-785R-P01-H04-54		46,847
+341F-785R-P01-H05-72		89,561

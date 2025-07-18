@@ -1,0 +1,305 @@
+
+This is sdm (simple demultiplexer) 2.08 beta.
+
+Checking for switched pairs.
+Run with 1 cores.At Sample_341F-785R-P01-A01-1_hgrm_R1.fastq.gz: 64.1952% of 74437 reads accepted (99.8952% end-trimmed)
+Pair 2: 75.7271% of 74437 reads accepted (84.4177% end - trimmed)
+At Sample_341F-785R-P01-A02-11_hgrm_R1.fastq.gz: 62.4852% of 89578 reads accepted (99.7801% end-trimmed)
+Pair 2: 74.4937% of 89578 reads accepted (83.5395% end - trimmed)
+At Sample_341F-785R-P01-A03-24_hgrm_R1.fastq.gz: 67.9714% of 52962 reads accepted (99.8829% end-trimmed)
+Pair 2: 78.6375% of 52962 reads accepted (86.6546% end - trimmed)
+At Sample_341F-785R-P01-A04-42_hgrm_R1.fastq.gz: 63.1108% of 30513 reads accepted (99.8951% end-trimmed)
+Pair 2: 76.4854% of 30513 reads accepted (84.8098% end - trimmed)
+At Sample_341F-785R-P01-A05-55_hgrm_R1.fastq.gz: 61.4301% of 57799 reads accepted (99.7664% end-trimmed)
+Pair 2: 76.6017% of 57799 reads accepted (85.0101% end - trimmed)
+At Sample_341F-785R-P01-A06-73_hgrm_R1.fastq.gz: 68.3406% of 65655 reads accepted (99.866% end-trimmed)
+Pair 2: 80.4981% of 65655 reads accepted (87.5562% end - trimmed)
+At Sample_341F-785R-P01-B01-2_hgrm_R1.fastq.gz: 68.1349% of 79733 reads accepted (99.9185% end-trimmed)
+Pair 2: 78.3352% of 79733 reads accepted (86.1538% end - trimmed)
+At Sample_341F-785R-P01-B02-12_hgrm_R1.fastq.gz: 68.5142% of 57772 reads accepted (99.9411% end-trimmed)
+Pair 2: 78.5415% of 57772 reads accepted (86.7912% end - trimmed)
+At Sample_341F-785R-P01-B03-25_hgrm_R1.fastq.gz: 66.7324% of 10650 reads accepted (99.9624% end-trimmed)
+Pair 2: 79.3333% of 10650 reads accepted (87.0798% end - trimmed)
+At Sample_341F-785R-P01-B04-43_hgrm_R1.fastq.gz: 66.9475% of 24685 reads accepted (99.8987% end-trimmed)
+Pair 2: 79.1533% of 24685 reads accepted (86.9556% end - trimmed)
+At Sample_341F-785R-P01-B05-61_hgrm_R1.fastq.gz: 68.0905% of 55250 reads accepted (99.8914% end-trimmed)
+Pair 2: 80.1647% of 55250 reads accepted (87.7792% end - trimmed)
+At Sample_341F-785R-P01-B06-74_hgrm_R1.fastq.gz: 63.0772% of 89446 reads accepted (99.877% end-trimmed)
+Pair 2: 76.1789% of 89446 reads accepted (84.6768% end - trimmed)
+At Sample_341F-785R-P01-C01-3_hgrm_R1.fastq.gz: 69.2717% of 69021 reads accepted (99.9174% end-trimmed)
+Pair 2: 79.3251% of 69021 reads accepted (86.9112% end - trimmed)
+At Sample_341F-785R-P01-C02-13_hgrm_R1.fastq.gz: 68.0961% of 52586 reads accepted (99.8935% end-trimmed)
+Pair 2: 78.9412% of 52586 reads accepted (86.7664% end - trimmed)
+At Sample_341F-785R-P01-C03-31_hgrm_R1.fastq.gz: 69.7318% of 29536 reads accepted (99.956% end-trimmed)
+Pair 2: 81.3042% of 29536 reads accepted (88.4175% end - trimmed)
+At Sample_341F-785R-P01-C04-44_hgrm_R1.fastq.gz: 67.6533% of 28278 reads accepted (99.8586% end-trimmed)
+Pair 2: 78.9483% of 28278 reads accepted (86.463% end - trimmed)
+At Sample_341F-785R-P01-C05-62_hgrm_R1.fastq.gz: 68.2087% of 47642 reads accepted (99.893% end-trimmed)
+Pair 2: 80.364% of 47642 reads accepted (87.8133% end - trimmed)
+At Sample_341F-785R-P01-C06-75_hgrm_R1.fastq.gz: 63.4968% of 72421 reads accepted (99.8951% end-trimmed)
+Pair 2: 76.6173% of 72421 reads accepted (84.9477% end - trimmed)
+At Sample_341F-785R-P01-D01-4_hgrm_R1.fastq.gz: 69.3468% of 30633 reads accepted (99.8923% end-trimmed)
+Pair 2: 79.509% of 30633 reads accepted (86.5864% end - trimmed)
+At Sample_341F-785R-P01-D02-14_hgrm_R1.fastq.gz: 68.8304% of 39330 reads accepted (99.9415% end-trimmed)
+Pair 2: 78.5482% of 39330 reads accepted (86.2649% end - trimmed)
+At Sample_341F-785R-P01-D03-32_hgrm_R1.fastq.gz: 70.6306% of 47352 reads accepted (99.924% end-trimmed)
+Pair 2: 79.9037% of 47352 reads accepted (86.8538% end - trimmed)
+At Sample_341F-785R-P01-D04-45_hgrm_R1.fastq.gz: 70.1324% of 21150 reads accepted (99.7872% end-trimmed)
+Pair 2: 80.2695% of 21150 reads accepted (87.1726% end - trimmed)
+At Sample_341F-785R-P01-D05-63_hgrm_R1.fastq.gz: 68.7888% of 38624 reads accepted (99.9146% end-trimmed)
+Pair 2: 79.8882% of 38624 reads accepted (87.2825% end - trimmed)
+At Sample_341F-785R-P01-D06-81_hgrm_R1.fastq.gz: 15.8996% of 1195 reads accepted (97.5732% end-trimmed)
+Pair 2: 38.5774% of 1195 reads accepted (51.9665% end - trimmed)
+At Sample_341F-785R-P01-E01-5_hgrm_R1.fastq.gz: 63.7192% of 50608 reads accepted (99.9486% end-trimmed)
+Pair 2: 76.6262% of 50608 reads accepted (84.9174% end - trimmed)
+At Sample_341F-785R-P01-E02-15_hgrm_R1.fastq.gz: 64.2465% of 80160 reads accepted (99.8615% end-trimmed)
+Pair 2: 75.1198% of 80160 reads accepted (83.8473% end - trimmed)
+At Sample_341F-785R-P01-E03-33_hgrm_R1.fastq.gz: 64.8714% of 48183 reads accepted (99.9357% end-trimmed)
+Pair 2: 75.8566% of 48183 reads accepted (84.4945% end - trimmed)
+At Sample_341F-785R-P01-E04-51_hgrm_R1.fastq.gz: 64.1187% of 59223 reads accepted (99.9139% end-trimmed)
+Pair 2: 78.2821% of 59223 reads accepted (86.2182% end - trimmed)
+At Sample_341F-785R-P01-E05-64_hgrm_R1.fastq.gz: 63.1495% of 77440 reads accepted (99.8825% end-trimmed)
+Pair 2: 76.999% of 77440 reads accepted (85.4584% end - trimmed)
+At Sample_341F-785R-P01-E06-82_hgrm_R1.fastq.gz: 57.4324% of 444 reads accepted (99.7748% end-trimmed)
+Pair 2: 67.1171% of 444 reads accepted (78.8288% end - trimmed)
+At Sample_341F-785R-P01-F01-6_hgrm_R1.fastq.gz: 68.4107% of 17278 reads accepted (99.9479% end-trimmed)
+Pair 2: 78.8807% of 17278 reads accepted (87.0413% end - trimmed)
+At Sample_341F-785R-P01-F02-21_hgrm_R1.fastq.gz: 68.2941% of 54053 reads accepted (99.9315% end-trimmed)
+Pair 2: 78.0475% of 54053 reads accepted (86.047% end - trimmed)
+At Sample_341F-785R-P01-F03-34_hgrm_R1.fastq.gz: 67.5767% of 45421 reads accepted (99.9296% end-trimmed)
+Pair 2: 79.3774% of 45421 reads accepted (87.1755% end - trimmed)
+At Sample_341F-785R-P01-F04-52_hgrm_R1.fastq.gz: 67.7992% of 15658 reads accepted (99.8787% end-trimmed)
+Pair 2: 80.585% of 15658 reads accepted (88.2424% end - trimmed)
+At Sample_341F-785R-P01-F05-65_hgrm_R1.fastq.gz: 67.775% of 37415 reads accepted (99.9198% end-trimmed)
+Pair 2: 79.6445% of 37415 reads accepted (87.3821% end - trimmed)
+At Sample_341F-785R-P01-G01-7_hgrm_R1.fastq.gz: 67.7871% of 71195 reads accepted (99.8904% end-trimmed)
+Pair 2: 78.4844% of 71195 reads accepted (86.4471% end - trimmed)
+At Sample_341F-785R-P01-G02-22_hgrm_R1.fastq.gz: 69.5678% of 91239 reads accepted (99.8827% end-trimmed)
+Pair 2: 80.059% of 91239 reads accepted (87.5656% end - trimmed)
+At Sample_341F-785R-P01-G03-35_hgrm_R1.fastq.gz: 69.2932% of 31563 reads accepted (99.9398% end-trimmed)
+Pair 2: 79.3461% of 31563 reads accepted (87.0038% end - trimmed)
+At Sample_341F-785R-P01-G04-53_hgrm_R1.fastq.gz: 67.7756% of 47284 reads accepted (99.8541% end-trimmed)
+Pair 2: 79.7691% of 47284 reads accepted (87.4334% end - trimmed)
+At Sample_341F-785R-P01-G05-71_hgrm_R1.fastq.gz: 69.1425% of 108894 reads accepted (99.8577% end-trimmed)
+Pair 2: 81.1569% of 108894 reads accepted (88.2978% end - trimmed)
+At Sample_341F-785R-P01-H01-8_hgrm_R1.fastq.gz: 68.965% of 78856 reads accepted (99.9429% end-trimmed)
+Pair 2: 79.001% of 78856 reads accepted (86.3346% end - trimmed)
+At Sample_341F-785R-P01-H02-23_hgrm_R1.fastq.gz: 68.0405% of 86256 reads accepted (99.9165% end-trimmed)
+Pair 2: 78.434% of 86256 reads accepted (86.0902% end - trimmed)
+At Sample_341F-785R-P01-H03-41_hgrm_R1.fastq.gz: 68.7522% of 16846 reads accepted (99.9525% end-trimmed)
+Pair 2: 79.3957% of 16846 reads accepted (86.5665% end - trimmed)
+At Sample_341F-785R-P01-H04-54_hgrm_R1.fastq.gz: 69.2227% of 49569 reads accepted (99.889% end-trimmed)
+Pair 2: 80.4354% of 49569 reads accepted (87.3651% end - trimmed)
+At Sample_341F-785R-P01-H05-72_hgrm_R1.fastq.gz: 68.2727% of 96825 reads accepted (99.874% end-trimmed)
+Pair 2: 79.9866% of 96825 reads accepted (87.1469% end - trimmed)
+Evaluating and writing dereplicated reads..
+
+Dereplication: 37,195 unique sequences (avg size 54; 2,002,796 counts)
+102,559/139,754 not passing derep conditions (119,323 counts; 8:1,4:2,3:3)
+
+Unequal counts in 43 cases. 
+sdm 2.08 beta
+Input File:  several
+Output File: lotus2_SLV_cont_rm_raw/tmpFiles//demulti.1.fna
+
+Reads processed: 2,330,658; 2,330,658 (pair 1;pair 2)
+Rejected: 770,954; 502,618
+Accepted (High qual): 1,559,221; 1,828,038 (2,550; 319,753 end-trimmed)
+Accepted (Mid qual): 483;2
+Singletons among these: 0; 0
+Bad Reads recovered with dereplication: 562,467
+Min/Avg/Max stats Pair 1
+     - sequence Length : 200/200/200
+     - Quality :   34/36.5115/38
+     - Median sequence Length : 0, Quality : 0
+     - Accum. Error 0.176458
+Trimmed due to:
+  > 25 avg qual_ in 20 bp windows :         0; 0
+  > (0.95) acc. errors, trimmed seqs :     0; 0
+Rejected due to:
+  < min Sequence length (200)  :                551,032; 500,201
+       -after Quality trimming :           551,032; 500,201
+  < avg Quality (27)  :                    0; 0
+  < window (50 nt) avg. Quality (25)  :    15,908; 2
+  > max Sequence length (1000)  :               0; 0
+  > (8) homo-nt run  :                     1,079; 2,417
+  > (0) amb. Bases  :                      0; 0
+  > (2.7) binomial est. errors :           218,843; 0
+Specific sequence searches:
+  -With fwd Primer remaining (<= 0 mismatches) :           0; 0
+  -Barcode unidentified (max 0 errors) :                   0
+
+SampleID	Barcode	Instances
+Sample_341F-785R-P01-A01-1_hgrm		63,852
+Sample_341F-785R-P01-A02-11_hgrm		77,929
+Sample_341F-785R-P01-A03-24_hgrm		47,425
+Sample_341F-785R-P01-A04-42_hgrm		26,761
+Sample_341F-785R-P01-A05-55_hgrm		50,733
+Sample_341F-785R-P01-A06-73_hgrm		59,280
+Sample_341F-785R-P01-B01-2_hgrm		72,062
+Sample_341F-785R-P01-B02-12_hgrm		52,650
+Sample_341F-785R-P01-B03-25_hgrm		9,668
+Sample_341F-785R-P01-B04-43_hgrm		22,015
+Sample_341F-785R-P01-B05-61_hgrm		50,362
+Sample_341F-785R-P01-B06-74_hgrm		80,468
+Sample_341F-785R-P01-C01-3_hgrm		63,161
+Sample_341F-785R-P01-C02-13_hgrm		48,046
+Sample_341F-785R-P01-C03-31_hgrm		27,184
+Sample_341F-785R-P01-C04-44_hgrm		25,164
+Sample_341F-785R-P01-C05-62_hgrm		43,593
+Sample_341F-785R-P01-C06-75_hgrm		65,729
+Sample_341F-785R-P01-D01-4_hgrm		27,961
+Sample_341F-785R-P01-D02-14_hgrm		36,228
+Sample_341F-785R-P01-D03-32_hgrm		43,801
+Sample_341F-785R-P01-D04-45_hgrm		19,097
+Sample_341F-785R-P01-D05-63_hgrm		35,630
+Sample_341F-785R-P01-D06-81_hgrm		265
+Sample_341F-785R-P01-E01-5_hgrm		46,171
+Sample_341F-785R-P01-E02-15_hgrm		73,037
+Sample_341F-785R-P01-E03-33_hgrm		44,140
+Sample_341F-785R-P01-E04-51_hgrm		54,039
+Sample_341F-785R-P01-E05-64_hgrm		70,618
+Sample_341F-785R-P01-E06-82_hgrm		333
+Sample_341F-785R-P01-F01-6_hgrm		16,067
+Sample_341F-785R-P01-F02-21_hgrm		49,983
+Sample_341F-785R-P01-F03-34_hgrm		41,917
+Sample_341F-785R-P01-F04-52_hgrm		14,470
+Sample_341F-785R-P01-F05-65_hgrm		34,556
+Sample_341F-785R-P01-G01-7_hgrm		65,669
+Sample_341F-785R-P01-G02-22_hgrm		84,606
+Sample_341F-785R-P01-G03-35_hgrm		28,696
+Sample_341F-785R-P01-G04-53_hgrm		43,485
+Sample_341F-785R-P01-G05-71_hgrm		100,891
+Sample_341F-785R-P01-H01-8_hgrm		73,168
+Sample_341F-785R-P01-H02-23_hgrm		79,843
+Sample_341F-785R-P01-H03-41_hgrm		15,398
+Sample_341F-785R-P01-H04-54_hgrm		45,978
+Sample_341F-785R-P01-H05-72_hgrm		89,559
+Time taken: : 58s 45ms
+usearch v11.0.667_i86linux32, 4.0Gb RAM (74.0Gb total), 40 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
+
+License: ulrike.loeber@mdc-berlin.de
+
+00:00 39Mb      0.1% 0 OTUs, 0 chimeras00:01 48Mb     68.4% 54 OTUs, 353 chimeras00:01 48Mb    100.0% 57 OTUs, 522 chimeras
+[M::mm_idx_gen::0.003*0.93] collected minimizers
+[M::mm_idx_gen::0.003*0.94] sorted minimizers
+[M::main::0.003*0.94] loaded/built the index for 57 target sequence(s)
+[M::mm_mapopt_update::0.003*0.94] mid_occ = 1000
+[M::mm_idx_stat] kmer size: 21; skip: 11; is_hpc: 0; #seq: 57
+[M::mm_idx_stat::0.003*0.94] distinct minimizers: 1286 (84.84% are singletons); average occurrences: 1.316; average spacing: 6.734
+[M::worker_pipeline::0.048*1.00] mapped 483 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: /fast/AG_Forslund/bin/VMbin/lotus2//bin//minimap2-2.17_x64-linux/minimap2 -x sr --sr -u both --secondary=no -N 30 -c -t 1 -o lotus2_SLV_cont_rm_raw/tmpFiles//add.paf lotus2_SLV_cont_rm_raw/tmpFiles//tmp_otu.fa lotus2_SLV_cont_rm_raw/tmpFiles//demulti.1.add.fna.singl
+[M::main] Real time: 0.049 sec; CPU: 0.048 sec; Peak RSS: 0.005 GB
+
+This is sdm (simple demultiplexer) 2.08 beta.
+
+You did not supply a quality file. 
+Please give the path to your quality file as command line argument:
+  -i_qual <PathToQualityFile>
+NO filtering will be done on your reads (just rewriting / log files created).
+sdm run in No Map Mode.
+sequence filename: lotus2_SLV_cont_rm_raw/tmpFiles//derep.fas.rest
+quality filename: 
+ 
+
+Reading Fasta.
+success
+Run with 1 cores.sequence filename: lotus2_SLV_cont_rm_raw/tmpFiles//derep.fas.rest
+quality filename: 
+ 
+
+Reading Fasta.
+success
+
+*********
+Warning:: Quality file is not present.
+Recommended to abort demultiplexing.
+*********
+
+sdm 2.08 beta
+Input File:  lotus2_SLV_cont_rm_raw/tmpFiles//derep.fas.rest
+Output File: lotus2_SLV_cont_rm_raw/tmpFiles//derep.fas.rest1
+No valid Filter file provided; no filtering done on files
+Time taken: : 1s 889ms
+[M::mm_idx_gen::0.002*1.06] collected minimizers
+[M::mm_idx_gen::0.003*1.05] sorted minimizers
+[M::main::0.003*1.05] loaded/built the index for 57 target sequence(s)
+[M::mm_mapopt_update::0.003*1.05] mid_occ = 1000
+[M::mm_idx_stat] kmer size: 21; skip: 11; is_hpc: 0; #seq: 57
+[M::mm_idx_stat::0.003*1.05] distinct minimizers: 1286 (84.84% are singletons); average occurrences: 1.316; average spacing: 6.734
+[M::worker_pipeline::10.750*1.00] mapped 102559 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: /fast/AG_Forslund/bin/VMbin/lotus2//bin//minimap2-2.17_x64-linux/minimap2 -x sr --sr -u both --secondary=no -N 30 -c -t 1 -o lotus2_SLV_cont_rm_raw/tmpFiles//rests.paf lotus2_SLV_cont_rm_raw/tmpFiles//tmp_otu.fa lotus2_SLV_cont_rm_raw/tmpFiles//derep.fas.rest
+[M::main] Real time: 10.751 sec; CPU: 10.749 sec; Peak RSS: 0.113 GB
+
+This is sdm (simple demultiplexer) 2.08 beta.
+
+Checking for switched pairs.
+sdm run in No Map Mode. Using paired end sequencing files.
+Reading Fasta.
+Run with 1 cores.At lotus2_SLV_cont_rm_raw/tmpFiles//derep.1.hq.fq: Associated 2006047, 1.99762e+06 counts to primary clusters
+Found 2122119 counts in derep.map, 116072 counts secondary
+Reading lotus2_SLV_cont_rm_raw/tmpFiles//finalOTU.ADD.paf
+Added 471 counts from uc add file
+Reading lotus2_SLV_cont_rm_raw/tmpFiles//finalOTU.REST.paf
+Added 92790 counts from uc add file
+Found 57 seeds of 57 OTU's in 140293 mappings.
+Stats of Seed sequences (0th/10th/50th/90th/100th) percentile:
+
+     - Sequence Length :   200/290/464/466/478
+     - Quality :      30/34.6682/38.0257/38.3082/39.9517
+     - Accum. Error : 0.029433/0.072238/0.108135/0.289582/3.18339
+     - Sim2Consensus: 0/0/0/0/100
+Writing OTU matrix to lotus2_SLV_cont_rm_raw/OTU.txt
+Recruited 2106626 reads in OTU matrix
+Done
+Time taken: : 1s 877ms
+[M::mm_idx_gen::0.002*0.91] collected minimizers
+[M::mm_idx_gen::0.002*0.93] sorted minimizers
+[M::main::0.002*0.93] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.002*0.93] mid_occ = 1000
+[M::mm_idx_stat] kmer size: 21; skip: 11; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.93] distinct minimizers: 900 (100.00% are singletons); average occurrences: 1.000; average spacing: 5.984
+[M::worker_pipeline::0.003*0.92] mapped 62 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: /fast/AG_Forslund/bin/VMbin/lotus2//bin//minimap2-2.17_x64-linux/minimap2 -x sr --sr -u both --secondary=no -N 30 -c -t 1 -o lotus2_SLV_cont_rm_raw/tmpFiles//otu_seeds.fna.phiX.0.cont_hit.paf /fast/AG_Forslund/bin/VMbin/lotus2//DB//phiX.fasta lotus2_SLV_cont_rm_raw/tmpFiles//otu_seeds.fna
+[M::main] Real time: 0.004 sec; CPU: 0.003 sec; Peak RSS: 0.002 GB
+Loading Subject Sequences and Ids... done.
+Dumping Subj Ids... done.
+No Seg-File specified, no masking will take place.
+Dumping binary seqan mask file... done.
+
+Dumping unreduced Subj Sequences... done.
+Generating       0%  10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+ (1) SuffixArray |....:....:....:....:....:....:....:....:....:....|
+ (2) FM-Index... done.
+Writing Index to disk... done.
+LAMBDA - the Local Aligner for Massive Biological DatA
+======================================================
+Version 0.9.1
+
+Loading Subj Sequences... done.
+Loading Subj Ids... done.
+Loading Database Index... done.
+Loading Database Masking file... done.
+Loading Query Sequences and Ids... generating reverse complements... done.
+Searching and extending hits on-line...progress:
+0%  10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+|....:....:....:....:....:....:....:....:....:....|
+Number of valid hits:                           6800
+Number of Queries with at least one valid hit:    34
+Least common ancestor (LCA) assignments ver 0.24
+Loading tax DB../fast/AG_Forslund/bin/VMbin/lotus2//DB//SLV_138.1_SSU.tax
+52026 of 510508 are duplicate entries
+TaxDB /fast/AG_Forslund/bin/VMbin/lotus2//DB//SLV_138.1_SSU.tax contained 458482 entries, depth distribution is:
+0:0 1:50 2:3250 3:7541 4:25185 5:50914 6:136341 7:235201 
+Done Blast File reading
+Wrote 34/34 LCA tax assignments
+LCA finished. Time taken: 1.49s
+
+Creating Phyloseq object ...
+Read 3 items
+Phyloseq object is created: phyloseq.Rdata

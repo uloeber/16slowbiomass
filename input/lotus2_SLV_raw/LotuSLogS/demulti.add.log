@@ -1,0 +1,76 @@
+sdm 2.08 beta
+Input File:  several
+Output File: lotus2_SLV_raw/tmpFiles//demulti.1.fna
+
+Reads not High qual_: 0
+Rejected:0
+Accepted (High qual): 0 (0 end-trimmed)
+Accepted (Mid qual): 0
+Singletons among these: 0; 0
+Bad Reads recovered with dereplication: 0
+Min/Avg/Max stats Pair 1
+     - sequence Length : 0/0/0
+     - Quality :   0/0/0
+     - Median sequence Length : 0, Quality : 0
+     - Accum. Error 0.475
+Trimmed due to:
+  > 25 avg qual_ in 20 bp windows :          0
+  > (-1) acc. errors, trimmed seqs :       0
+Rejected due to:
+  < min Sequence length (200)  :                0
+  < avg Quality (20)  :                    0
+  < window (50 nt) avg. Quality (25)  :    0
+  > max Sequence length (1000)  :               0
+  > (8) homo-nt run  :                     0
+  > (1) amb. Bases  :                      0
+  > (2.7) binomial est. errors :           0
+Specific sequence searches:
+  -With fwd Primer remaining (<= 0 mismatches) :           0
+  -Barcode unidentified (max 0 errors) :                   0
+
+SampleID	Barcode	Instances
+341F-785R-P01-A01-1		0
+341F-785R-P01-A02-11		0
+341F-785R-P01-A03-24		0
+341F-785R-P01-A04-42		0
+341F-785R-P01-A05-55		0
+341F-785R-P01-A06-73		0
+341F-785R-P01-B01-2		0
+341F-785R-P01-B02-12		0
+341F-785R-P01-B03-25		0
+341F-785R-P01-B04-43		0
+341F-785R-P01-B05-61		0
+341F-785R-P01-B06-74		0
+341F-785R-P01-C01-3		0
+341F-785R-P01-C02-13		0
+341F-785R-P01-C03-31		0
+341F-785R-P01-C04-44		0
+341F-785R-P01-C05-62		0
+341F-785R-P01-C06-75		0
+341F-785R-P01-D01-4		0
+341F-785R-P01-D02-14		0
+341F-785R-P01-D03-32		0
+341F-785R-P01-D04-45		0
+341F-785R-P01-D05-63		0
+341F-785R-P01-D06-81		0
+341F-785R-P01-E01-5		0
+341F-785R-P01-E02-15		0
+341F-785R-P01-E03-33		0
+341F-785R-P01-E04-51		0
+341F-785R-P01-E05-64		0
+341F-785R-P01-E06-82		0
+341F-785R-P01-F01-6		0
+341F-785R-P01-F02-21		0
+341F-785R-P01-F03-34		0
+341F-785R-P01-F04-52		0
+341F-785R-P01-F05-65		0
+341F-785R-P01-G01-7		0
+341F-785R-P01-G02-22		0
+341F-785R-P01-G03-35		0
+341F-785R-P01-G04-53		0
+341F-785R-P01-G05-71		0
+341F-785R-P01-H01-8		0
+341F-785R-P01-H02-23		0
+341F-785R-P01-H03-41		0
+341F-785R-P01-H04-54		0
+341F-785R-P01-H05-72		0
