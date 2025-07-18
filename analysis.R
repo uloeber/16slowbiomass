@@ -1,8 +1,3 @@
-#- decotam nochmal nur mit "empty probe"
-#  - nochmal mit empty --> very low concenctraion artificially
-
-
-
 library(metadeconfoundR)
 library(ggplot2)
 library(cowplot)
@@ -21,14 +16,15 @@ library(tidyr)
 library(metacal) # devtools::install_github("mikemc/metacal")
 library(lme4)
 library(lmtest)
-source(here::here("../snippets/ggsaveAll.R")) # on Till's local Dropbpx
+#source(here::here("../snippets/ggsaveAll.R")) # on Till's local Dropbpx
+source(here::here("ggsaveAll.R"))
 
 substrRight <- function(x, n){
   substr(x, nchar(x)-n+1, nchar(x))
 }
 
-source("~/Dropbox/Package/metadeconfoundR/R/CliffsDelta.R")
-
+#source("~/Dropbox/Package/metadeconfoundR/R/CliffsDelta.R")
+source(here::here("CliffsDelta.R"))
 #####                                                                #####
 ##########                                                      ##########
 ###############             read in features and metadata  ###############
